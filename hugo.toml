@@ -7,7 +7,7 @@ enableRobotsTXT = true
 
 [params]
   description = "Kurze Beschreibung deines Blogs"
-  footerText = 'Auf dieser Website werden keine Daten gesammelt.'
+  footerText = 'Auf dieser Website werden keine Daten gesammelt. [Impressum](https://www.socialmediawatchblog.de/impressum/)'
 
 [menu]
   [[menu.main]]
