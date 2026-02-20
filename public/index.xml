@@ -41,7 +41,7 @@
       <link>http://localhost:1313/supamakoto/posts/mein-erster-post/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/supamakoto/posts/mein-erster-post/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/supamakoto/img/mf.jpg&#34; alt=&#34;Bildbeschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. &lt;a href=&#34;https://link-url-here.org&#34;&gt;Link text Here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/supamakoto/img/mf.jpg&#34; alt=&#34;Beschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles auf Anfang. Endlich wieder bloggen. Lange ist es her. Viel zu lange. Wenn man mit seinem Blog Geld verdient, macht man zwar sein Hobby zum Beruf, aber man verliert auch sein Hobby. Diese kleine Ecke des World Wide Web gehört einfach nur mir. Links, Zitate, Fotos aus meinem Alltag, Tools, die ich nutze, Dinge, die mich inspirieren. Alles super easy mit Hugo aufgesetzt und per Github ins Netz gestellt. Am HTML und CSS basteln, mit Terminal auseinandersetzen. Was für eine Freude.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Study of Buddhist Monks Finds Meditation Alters Brain Activity</title>
@@ -49,6 +49,13 @@
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/supamakoto/link/mein-erster-post-kopie/</guid>
       <description>&lt;p&gt;Meditation isn’t thinking about nothing. New research reinforces that it’s a mind-altering, dynamic state that promotes focus, learning, and well-being.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Über</title>
+      <link>http://localhost:1313/supamakoto/ueber/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/supamakoto/ueber/</guid>
+      <description>&lt;p&gt;Moin, willkommen auf meinem persönlichen Blog. Hier halte ich fest, was mich interessiert und inspiriert. No pressure. Einfach bloggen. Ohne Tracking, ohne Likes, ohne Hintergedanken. Wenn dir etwas gefällt, schön. Falls nicht, auch okay. Es geht hier nicht darum, Sichtbarkeit zu schaffen. Für mich ist diese Seite einfach nur mein ganz persönlicher Space in diesem World Wide Web. Mit Markdown geschrieben, über Hugo ins Netz gehoben, per GitHub veröffentlicht. Keine Skripte, keine Like-Buttons, keine Box für ein E-Mail-Sign-up. Nur RSS, HTML, CSS, jede Menge Drum and Bass, Kaffee und Freude am Bloggen. &lt;a href=&#34;mailto:supamakoto@mailbox.org&#34;&gt;Say hi!&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
