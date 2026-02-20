@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on supamakoto</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/supamakoto/tags/</link>
     <description>Recent content in Tags on supamakoto</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/supamakoto/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Life</title>
-      <link>http://localhost:1313/tags/life/</link>
-      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/life/</guid>
+      <link>http://localhost:1313/supamakoto/tags/life/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/supamakoto/tags/life/</guid>
       <description></description>
     </item>
     <item>
       <title>Medienwandel</title>
-      <link>http://localhost:1313/tags/medienwandel/</link>
+      <link>http://localhost:1313/supamakoto/tags/medienwandel/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/medienwandel/</guid>
+      <guid>http://localhost:1313/supamakoto/tags/medienwandel/</guid>
       <description></description>
     </item>
     <item>
       <title>Regulierung</title>
-      <link>http://localhost:1313/tags/regulierung/</link>
+      <link>http://localhost:1313/supamakoto/tags/regulierung/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/regulierung/</guid>
+      <guid>http://localhost:1313/supamakoto/tags/regulierung/</guid>
       <description></description>
     </item>
     <item>
       <title>Meditation</title>
-      <link>http://localhost:1313/tags/meditation/</link>
+      <link>http://localhost:1313/supamakoto/tags/meditation/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/meditation/</guid>
+      <guid>http://localhost:1313/supamakoto/tags/meditation/</guid>
       <description></description>
     </item>
     <item>
       <title>Medizin</title>
-      <link>http://localhost:1313/tags/medizin/</link>
+      <link>http://localhost:1313/supamakoto/tags/medizin/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/medizin/</guid>
+      <guid>http://localhost:1313/supamakoto/tags/medizin/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag1</title>
-      <link>http://localhost:1313/tags/tag1/</link>
+      <link>http://localhost:1313/supamakoto/tags/tag1/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tag1/</guid>
+      <guid>http://localhost:1313/supamakoto/tags/tag1/</guid>
       <description></description>
     </item>
     <item>
       <title>Tag2</title>
-      <link>http://localhost:1313/tags/tag2/</link>
+      <link>http://localhost:1313/supamakoto/tags/tag2/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tag2/</guid>
+      <guid>http://localhost:1313/supamakoto/tags/tag2/</guid>
       <description></description>
     </item>
   </channel>

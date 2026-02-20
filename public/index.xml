@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>supamakoto</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/supamakoto/</link>
     <description>Recent content on supamakoto</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/supamakoto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zahnspange</title>
-      <link>http://localhost:1313/posts/zahnspange/</link>
+      <link>http://localhost:1313/supamakoto/posts/zahnspange/</link>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/zahnspange/</guid>
+      <guid>http://localhost:1313/supamakoto/posts/zahnspange/</guid>
       <description>&lt;p&gt;Die Große kriegt heute ihre Zangspange. Wie die Zeit vergeht. It is what it is till it ain&amp;rsquo;t.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cr1TiKaL zu Section 230</title>
-      <link>http://localhost:1313/quote/mein-erster-quote/</link>
+      <link>http://localhost:1313/supamakoto/quote/mein-erster-quote/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/quote/mein-erster-quote/</guid>
+      <guid>http://localhost:1313/supamakoto/quote/mein-erster-quote/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;It should be obvious why section 230 is so important because if these platforms were held liable for every single thing people post on their platforms, they would get into a lot of hot water and they would just not allow people to post things. Full stop. because it would be too dangerous to do so. They would need to micromanage and control every single thing that hits the platform in order to protect themselves. No matter how you spin it, this would ruin the internet. It’s a pile of dogshit. No matter how much perfume gets sprayed on it or how they want to repackage it, it still stinks.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Die with zero</title>
-      <link>http://localhost:1313/quote/die-with-zero/</link>
+      <link>http://localhost:1313/supamakoto/quote/die-with-zero/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/quote/die-with-zero/</guid>
+      <guid>http://localhost:1313/supamakoto/quote/die-with-zero/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;I’d rather spend my time and energy trying to live the most fulfilling life I can than to accumulate a sum of money. Money itself doesn’t build relationships, create memories, bring you closer to your loved ones, or express who you are to the world. It’s how you spend money that can make those things easier. When you optimize for net fulfillment over net worth, it’s a whole different game. It shifted my “save to make number go up” mindset to a different frame: “spend what we are able to on the things that matter most.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Studie: Amerikaner und ihr Verhältnis zu Nachrichten</title>
-      <link>http://localhost:1313/quote/pew-usa-news-medienwandel/</link>
+      <link>http://localhost:1313/supamakoto/quote/pew-usa-news-medienwandel/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/quote/pew-usa-news-medienwandel/</guid>
+      <guid>http://localhost:1313/supamakoto/quote/pew-usa-news-medienwandel/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Two-thirds say they have stopped getting news from a specific source, and six-in-ten say they have reduced their overall news intake.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Link: &lt;a href=&#34;https://www.pewresearch.org/journalism/2026/02/11/americans-complicated-relationship-with-news/&#34;&gt;Pew Research Center&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Back to blogging</title>
-      <link>http://localhost:1313/posts/mein-erster-post/</link>
+      <link>http://localhost:1313/supamakoto/posts/mein-erster-post/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mein-erster-post/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/mf.jpg&#34; alt=&#34;Bildbeschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. &lt;a href=&#34;https://link-url-here.org&#34;&gt;Link text Here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/supamakoto/posts/mein-erster-post/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/supamakoto/img/mf.jpg&#34; alt=&#34;Bildbeschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. &lt;a href=&#34;https://link-url-here.org&#34;&gt;Link text Here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Study of Buddhist Monks Finds Meditation Alters Brain Activity</title>
-      <link>http://localhost:1313/link/mein-erster-post-kopie/</link>
+      <link>http://localhost:1313/supamakoto/link/mein-erster-post-kopie/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/link/mein-erster-post-kopie/</guid>
+      <guid>http://localhost:1313/supamakoto/link/mein-erster-post-kopie/</guid>
       <description>&lt;p&gt;Meditation isn’t thinking about nothing. New research reinforces that it’s a mind-altering, dynamic state that promotes focus, learning, and well-being.&lt;/p&gt;</description>
     </item>
   </channel>

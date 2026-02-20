@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on supamakoto</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:1313/supamakoto/posts/</link>
     <description>Recent content in Posts on supamakoto</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/supamakoto/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zahnspange</title>
-      <link>http://localhost:1313/posts/zahnspange/</link>
+      <link>http://localhost:1313/supamakoto/posts/zahnspange/</link>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/zahnspange/</guid>
+      <guid>http://localhost:1313/supamakoto/posts/zahnspange/</guid>
       <description>&lt;p&gt;Die Große kriegt heute ihre Zangspange. Wie die Zeit vergeht. It is what it is till it ain&amp;rsquo;t.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Back to blogging</title>
-      <link>http://localhost:1313/posts/mein-erster-post/</link>
+      <link>http://localhost:1313/supamakoto/posts/mein-erster-post/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mein-erster-post/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/mf.jpg&#34; alt=&#34;Bildbeschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. &lt;a href=&#34;https://link-url-here.org&#34;&gt;Link text Here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/supamakoto/posts/mein-erster-post/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/supamakoto/img/mf.jpg&#34; alt=&#34;Bildbeschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. &lt;a href=&#34;https://link-url-here.org&#34;&gt;Link text Here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
