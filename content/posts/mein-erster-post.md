@@ -6,7 +6,7 @@ tags: ["tag1", "tag2"]
 description: "Dieser Text erscheint im Feed als Teaser."
 ---
 
-![Bildbeschreibung](/img/mf.jpg)
+![Beschreibung](/supamakoto/img/mf.jpg)
 
 Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. [Link text Here](https://link-url-here.org)
 
