@@ -1,23 +1,20 @@
 {{ define "main" }}
 <ul class="post-list">
-  {{ range .Site.RegularPages.ByDate.Reverse }}
-  <li class="post-item {{ .Type }}">
+  {{ range where .Site.RegularPages.ByDate.Reverse "Params.unlisted" "!=" true }}
+    <li class="post-item {{ .Type }}">
 
     {{ if eq .Type "quote" }}
       {{/* --- Zitat --- */}}
+      <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>
       <div class="post-quote">
         {{ .Content }}
-        <p class="quote-source">
-        </p>
       </div>
 
     {{ else if eq .Type "link" }}
       {{/* --- Link --- */}}
       {{ $title := .Title }}
       {{ $url := .Params.link_url }}
-      <div class="post-title-line">
-        <h2><a href="{{ $url | default .Permalink }}">{{ $title }}</a></h2>
-      </div>
+      <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>
       <div class="post-body">{{ .Content }}</div>
       {{ with $url }}
       <div class="link-card">
