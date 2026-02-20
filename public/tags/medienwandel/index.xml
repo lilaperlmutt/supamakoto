@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medienwandel on supamakoto</title>
+    <link>http://localhost:1313/tags/medienwandel/</link>
+    <description>Recent content in Medienwandel on supamakoto</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/medienwandel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Studie: Amerikaner und ihr Verhältnis zu Nachrichten</title>
+      <link>http://localhost:1313/quote/pew-usa-news-medienwandel/</link>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quote/pew-usa-news-medienwandel/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Two-thirds say they have stopped getting news from a specific source, and six-in-ten say they have reduced their overall news intake.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Link: &lt;a href=&#34;https://www.pewresearch.org/journalism/2026/02/11/americans-complicated-relationship-with-news/&#34;&gt;Pew Research Center&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

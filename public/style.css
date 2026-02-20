@@ -1,0 +1,405 @@
+/* =============================================
+   SMWB Blog — Minimal CSS
+   Inspiriert von notetoself.studio
+   Eigene Farben, abgespeckt auf das Wesentliche
+   ============================================= */
+
+/* --- Schriften (self-hosted) --- */
+/* Falls du keine eigenen Fonts hast, 
+   funktioniert der Stack unten auch ohne @font-face */
+
+/* --- CSS Custom Properties --- */
+:root {
+  --bg:           #F9F8F6;
+  --bg2:          #EFEDE8;
+  --text:         #111111;
+  --text2:        #888885;
+  --accent:       #111111;
+  --ui:           #E0DDD8;
+  --footer-bg:    #F9F8F6;
+  --footer-text:  #111111;
+  --max-width:    620px;
+  --font-body:  ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Consolas', 'DejaVu Sans Mono', monospace;
+  --font-title: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Consolas', 'DejaVu Sans Mono', monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:        #111111;
+    --bg2:       #1C1B1A;
+    --text:      #F2F0E8;
+    --text2:     #888885;
+    --accent:    #f22844;
+    --ui:        #2A2928;
+    --footer-bg: #000000;
+  }
+}
+
+/* --- Reset & Basis --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--footer-bg);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* --- Layout-Container --- */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* --- Header --- */
+.site-header {
+  padding: 1.5rem 0 1rem;
+  border-bottom: 1px solid var(--ui);
+  margin-bottom: 3rem;
+}
+
+.site-header .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.site-title {
+  font-family: var(--font-title);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.site-title a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.875rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav a {
+  color: var(--text2);
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.site-nav a:hover {
+  color: var(--accent);
+}
+
+/* --- Links allgemein --- */
+a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ui);
+}
+
+a:hover {
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+}
+
+/* --- Post-Liste (Startseite) --- */
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-item {
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--ui);
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+/* --- Post-Titel + Datum inline (wie notetoself) --- */
+.post-title-line {
+  margin: 0 0 0.5rem;
+  line-height: 1.2;
+}
+
+.post-title-line h2,
+.post-title-line h1 {
+  display: inline;
+  font-family: var(--font-title);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  letter-spacing: -0.02em;
+}
+
+.post-title-line h2 a,
+.post-title-line h1 a {
+  border-bottom: none;
+  color: var(--text);
+}
+
+.post-title-line h2 a:hover,
+.post-title-line h1 a:hover {
+  color: var(--accent);
+  border-bottom: none;
+}
+
+.post-date {
+  font-size: 0.8rem;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* --- Post-Body --- */
+.post-body {
+  margin-top: 0.75rem;
+}
+
+.post-body p {
+  margin: 0 0 1rem;
+}
+
+/* --- Weiterlesen-Link --- */
+.read-more {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.read-more a {
+  color: var(--accent);
+  border-bottom: 1px solid transparent;
+}
+
+.read-more a:hover {
+  border-bottom-color: var(--accent);
+}
+
+/* --- Tags --- */
+.post-tags {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.post-tags a {
+  font-size: 0.8rem;
+  color: var(--text2);
+  border: 1px solid var(--ui);
+  border-radius: 4px;
+  padding: 1px 7px;
+  text-decoration: none;
+}
+
+.post-tags a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* --- Zitat-Post --- */
+.post-quote blockquote {
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  border-left: 1px solid var(--accent);
+  font-style: italic;
+  color: var(--text);
+}
+
+.post-quote .quote-source {
+  font-size: 0.85rem;
+  color: var(--text2);
+  margin-top: 0.5rem;
+}
+
+/* --- Link-Karte --- */
+.link-card {
+  margin: 1rem 0 0.5rem;
+  border: 1px solid var(--ui);
+  border-radius: 4px;
+  background: var(--bg2);
+  overflow: hidden;
+}
+
+.link-card a {
+  display: block;
+  text-decoration: none;
+  border-bottom: none;
+  color: inherit;
+}
+
+.link-card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.link-card-body {
+  padding: 0.75rem 1rem;
+}
+
+.link-card-title {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 0.15rem;
+}
+
+.link-card-domain {
+  font-size: 0.8rem;
+  color: var(--text2);
+}
+
+/* --- Einzelner Post (Single Page) --- */
+.single-post {
+  margin-bottom: 6rem;
+}
+
+.single-post h1 {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+  margin: 0 0 0.5rem;
+}
+
+.single-post .post-meta {
+  font-size: 0.875rem;
+  color: var(--text2);
+  margin-bottom: 2rem;
+}
+
+.single-post h2 {
+  font-family: var(--font-title);
+  font-size: 1.3rem;
+  margin: 2rem 0 0.5rem;
+}
+
+.single-post h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1.5rem 0 0.25rem;
+}
+
+.single-post p {
+  margin: 0 0 1.25rem;
+}
+
+.single-post blockquote {
+  margin: 1.5rem 0;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  border-left: 3px solid var(--accent);
+  color: var(--text2);
+  font-style: italic;
+}
+
+.post-body img,
+.single-post img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 3px;
+  margin: 1.5rem 0;
+}
+
+.single-post code {
+  font-size: 0.875em;
+  background: var(--bg2);
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-family: 'Fira Code', 'Courier New', monospace;
+}
+
+.single-post pre {
+  background: var(--bg2);
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.single-post pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.85rem;
+}
+
+/* --- Pagination --- */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+  font-size: 0.9rem;
+}
+
+.pagination a {
+  color: var(--accent);
+  border-bottom: 1px solid transparent;
+}
+
+.pagination a:hover {
+  border-bottom-color: var(--accent);
+}
+
+/* --- Footer --- */
+.site-footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 2.5rem 0;
+  margin-top: 4rem;
+}
+
+.site-footer p {
+  margin: 0 0 0.5rem;
+  font-size: 0.875rem;
+  opacity: 0.75;
+}
+
+.site-footer a {
+  color: var(--footer-text);
+  border-bottom-color: rgba(255,255,255,0.3);
+}
+
+.site-footer a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* --- Responsive --- */
+@media (max-width: 640px) {
+  .site-header .inner {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .post-title-line h2,
+  .post-title-line h1 {
+    font-size: 1.3rem;
+  }
+
+  .single-post h1 {
+    font-size: 1.5rem;
+  }
+}

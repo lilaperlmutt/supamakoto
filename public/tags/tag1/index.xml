@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag1 on supamakoto</title>
+    <link>http://localhost:1313/tags/tag1/</link>
+    <description>Recent content in Tag1 on supamakoto</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back to blogging</title>
+      <link>http://localhost:1313/posts/mein-erster-post/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mein-erster-post/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/mf.jpg&#34; alt=&#34;Bildbeschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. &lt;a href=&#34;https://link-url-here.org&#34;&gt;Link text Here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite. Alles nach diesem Kommentar erscheint nur auf der Einzelseite.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

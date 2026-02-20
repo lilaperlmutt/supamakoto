@@ -1,0 +1,22 @@
+baseURL = "https://deinblog.de"
+languageCode = "de"
+title = "supamakoto"
+[pagination]
+  pagerSize = 10
+enableRobotsTXT = true
+
+[params]
+  description = "Kurze Beschreibung deines Blogs"
+  footerText = 'Auf dieser Website werden keine Daten gesammelt.'
+
+[menu]
+  [[menu.main]]
+    name = "Über"
+    url  = "/ueber/"
+    weight = 1
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]

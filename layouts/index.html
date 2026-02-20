@@ -1,0 +1,56 @@
+{{ define "main" }}
+<ul class="post-list">
+  {{ range .Site.RegularPages.ByDate.Reverse }}
+  <li class="post-item {{ .Type }}">
+
+    {{ if eq .Type "quote" }}
+      {{/* --- Zitat --- */}}
+      <div class="post-quote">
+        {{ .Content }}
+        <p class="quote-source">
+        </p>
+      </div>
+
+    {{ else if eq .Type "link" }}
+      {{/* --- Link --- */}}
+      {{ $title := .Title }}
+      {{ $url := .Params.link_url }}
+      <div class="post-title-line">
+        <h2><a href="{{ $url | default .Permalink }}">{{ $title }}</a></h2>
+      </div>
+      <div class="post-body">{{ .Content }}</div>
+      {{ with $url }}
+      <div class="link-card">
+        <a href="{{ . }}" target="_blank" rel="noopener">
+          <div class="link-card-body">
+            <div class="link-card-title">{{ $title }}</div>
+            <div class="link-card-domain">{{ . | replaceRE "https?://([^/]+).*" "$1" }}</div>
+          </div>
+        </a>
+      </div>
+      {{ end }}
+
+    {{ else }}
+      {{/* --- normaler Post --- */}}
+      <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>
+      <div class="post-title-line">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      </div>
+      <div class="post-body">
+        {{ .Content }}
+      </div>
+
+    {{ end }}
+
+    {{ with .Params.tags }}
+    <div class="post-tags">
+      {{ range . }}<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}
+    </div>
+    {{ end }}
+
+  </li>
+  {{ end }}
+</ul>
+
+{{ template "_internal/pagination.html" . }}
+{{ end }}
