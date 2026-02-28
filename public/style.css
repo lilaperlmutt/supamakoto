@@ -1,6 +1,6 @@
 /* =============================================
    SMWB Blog — Minimal CSS
-   Inspiriert von notetoself.studio
+   Farbpalette inspiriert von Tempa Records
    Eigene Farben, abgespeckt auf das Wesentliche
    ============================================= */
 
@@ -10,14 +10,14 @@
 
 /* --- CSS Custom Properties --- */
 :root {
-  --bg:           #F9F8F6;
-  --bg2:          #EFEDE8;
-  --text:         #111111;
-  --text2:        #888885;
-  --accent:       #f22844;
-  --ui:           #E0DDD8;
-  --footer-bg:    #F9F8F6;
-  --footer-text:  #111111;
+  --bg:           #F0F0F0;
+  --bg2:          #E4E3EE;
+  --text:         #201F25;
+  --text2:        #8A8897;
+  --accent:       #837AEF;
+  --ui:           #D6D4F1;
+  --footer-bg:    #F0F0F0;
+  --footer-text:  #201F25;
   --max-width:    620px;
   --font-body:  ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Consolas', 'DejaVu Sans Mono', monospace;
   --font-title: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Consolas', 'DejaVu Sans Mono', monospace;
@@ -25,14 +25,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg:        #111111;
-    --bg2:       #1C1B1A;
-    --text:      #F2F0E8;
-    --text2:     #888885;
-    --accent:    #f22844;
-    --ui:        #2A2928;
-    --footer-bg: #111111;
-    --footer-text: #F2F0E8;
+    --bg:        #141318;
+    --bg2:       #1E1D26;
+    --text:      #E8E7F0;
+    --text2:     #8A8897;
+    --accent:    #9B93F5;
+    --ui:        #2D2C3A;
+    --footer-bg: #141318;
+    --footer-text: #E8E7F0;
   }
 }
 
