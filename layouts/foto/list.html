@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h1>Fotos</h1>
+<ul class="post-list">
+  {{ range .Pages.ByDate.Reverse }}
+    <li class="post-item foto">
+      <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>
+      {{ with .Resources.GetMatch (.Params.image) }}
+        {{ $resized := .Resize "800x webp q80" }}
+        <img src="{{ $resized.RelPermalink }}" alt="" loading="lazy">
+      {{ end }}
+      {{ if .Content }}
+        <div class="post-body">{{ .Content }}</div>
+      {{ end }}
+    </li>
+  {{ end }}
+</ul>
+{{ end }}

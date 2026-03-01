@@ -1,5 +1,5 @@
 ---
-title: "Frühling am Fluss"
+title: "Erste Sonne"
 date: 2026-02-25
 image: "erste-sonne.webp"
 tags: ["Life","Foto"]
