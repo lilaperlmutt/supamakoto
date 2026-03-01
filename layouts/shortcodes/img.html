@@ -1,0 +1,5 @@
+{{ $img := .Page.Resources.GetMatch (.Get "src") }}
+{{ if $img }}
+  {{ $resized := $img.Resize "800x webp q80" }}
+  <img src="{{ $resized.RelPermalink }}" alt="{{ .Get "alt" | default "" }}" loading="lazy">
+{{ end }}

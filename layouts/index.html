@@ -27,6 +27,17 @@
       </div>
       {{ end }}
 
+    {{ else if eq .Type "foto" }}
+      {{/* --- Foto --- */}}
+      <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>
+      {{ with .Resources.GetMatch (.Params.image) }}
+        {{ $resized := .Resize "800x webp q80" }}
+        <img src="{{ $resized.RelPermalink }}" alt="" loading="lazy">
+      {{ end }}
+      {{ if .Content }}
+        <div class="post-body">{{ .Content }}</div>
+      {{ end }}
+
     {{ else }}
       {{/* --- normaler Post --- */}}
       <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>
