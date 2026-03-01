@@ -6,6 +6,6 @@ tags: ["Life", "Foto"]
 description: "Direkt die erste Sonne 2026 für einen kleinen Ausflug genutzt"
 ---
 
-![Beschreibung](/content/posts/erste-sonne/erste-sonne.webp)
+![Beschreibung](erste-sonne.webp)
 
 Direkt die erste Sonne 2026 für einen kleinen Fahrradausflug mit der Jüngsten genutzt. So schön.
