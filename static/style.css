@@ -122,14 +122,11 @@ a:hover {
 }
 
 /* --- Links Highlight --- */
-.highlight-link {
+.content a[href^="mailto:"] {
   background-color: #fef08a;
-  color: #111111;
+  color: #111;
   padding: 2px 6px;
   text-decoration: none;
-}
-.highlight-link:hover {
-  opacity: 0.8;
 }
 
 
