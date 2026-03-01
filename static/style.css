@@ -366,9 +366,12 @@ a:hover {
   font-size: 0.85rem;
 }
 
-.post-item.foto img {
+.post-item img {
   max-width: 100%;
   height: auto;
+  display: block;
+  border-radius: 3px;
+  margin: 0.5rem 0;
 }
 
 /* --- Pagination --- */
