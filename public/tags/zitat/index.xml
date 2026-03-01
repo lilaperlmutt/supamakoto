@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Quotes on supamakoto</title>
-    <link>http://localhost:1313/quote/</link>
-    <description>Recent content in Quotes on supamakoto</description>
+    <title>Zitat on supamakoto</title>
+    <link>http://localhost:1313/tags/zitat/</link>
+    <description>Recent content in Zitat on supamakoto</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/quote/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/zitat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Die with zero</title>
       <link>http://localhost:1313/quote/die-with-zero/</link>

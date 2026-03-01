@@ -30,7 +30,7 @@
     --text:      #E8E7F0;
     --text2:     #8A8897;
     --accent:    #9B93F5;
-    --ui:        #2D2C3A;
+    --ui:        #8A8897;
     --footer-bg: #262523;
     --footer-text: #E8E7F0;
   }
@@ -258,7 +258,7 @@ a:hover {
   margin: 1rem 0 0.5rem;
   border: 1px solid var(--ui);
   border-radius: 4px;
-  background: var(--bg2);
+  background: transparent;
   overflow: hidden;
 }
 

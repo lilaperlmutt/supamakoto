@@ -25,13 +25,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg:        #141318;
+    --bg:        #262523;
     --bg2:       #1E1D26;
     --text:      #E8E7F0;
     --text2:     #8A8897;
     --accent:    #9B93F5;
-    --ui:        #2D2C3A;
-    --footer-bg: #141318;
+    --ui:        #8A8897;
+    --footer-bg: #262523;
     --footer-text: #E8E7F0;
   }
 }
@@ -120,6 +120,15 @@ a:hover {
   border-bottom-color: var(--accent);
   color: var(--accent);
 }
+
+/* --- Links Highlight --- */
+.post-body a[href^="mailto:"] {
+  background-color: #fef08a;
+  color: #111;
+  padding: 2px 6px;
+  text-decoration: none;
+}
+
 
 /* --- Post-Liste (Startseite) --- */
 .post-list {
@@ -249,7 +258,7 @@ a:hover {
   margin: 1rem 0 0.5rem;
   border: 1px solid var(--ui);
   border-radius: 4px;
-  background: var(--bg2);
+  background: transparent;
   overflow: hidden;
 }
 
@@ -355,6 +364,14 @@ a:hover {
   background: none;
   padding: 0;
   font-size: 0.85rem;
+}
+
+.post-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 3px;
+  margin: 0.5rem 0;
 }
 
 /* --- Pagination --- */

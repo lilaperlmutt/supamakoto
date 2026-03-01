@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bloggen on supamakoto</title>
-    <link>http://localhost:1313/supamakoto/tags/bloggen/</link>
+    <link>http://localhost:1313/tags/bloggen/</link>
     <description>Recent content in Bloggen on supamakoto</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/supamakoto/tags/bloggen/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/bloggen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Back to blogging</title>
-      <link>http://localhost:1313/supamakoto/posts/mein-erster-post/</link>
+      <link>http://localhost:1313/posts/mein-erster-post/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/supamakoto/posts/mein-erster-post/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/supamakoto/img/mf.jpg&#34; alt=&#34;Beschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles auf Anfang. Endlich wieder bloggen. Lange ist es her. Viel zu lange. Wenn man mit seinem Blog Geld verdient, macht man zwar sein Hobby zum Beruf, aber man verliert auch sein Hobby. Diese kleine Ecke des World Wide Web gehört einfach nur mir. Links, Zitate, Fotos aus meinem Alltag, Tools, die ich nutze, Dinge, die mich inspirieren. Alles super easy mit Hugo aufgesetzt und per Github ins Netz gestellt. Am HTML und CSS basteln, mit Terminal auseinandersetzen. Was für eine Freude.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/mein-erster-post/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/mf.jpg&#34; alt=&#34;Beschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles auf Anfang. Endlich wieder bloggen. Lange ist es her. Viel zu lange. Wenn man mit seinem Blog Geld verdient, macht man zwar sein Hobby zum Beruf, aber man verliert auch sein Hobby. Diese kleine Ecke des World Wide Web gehört einfach nur mir. Links, Zitate, Fotos aus meinem Alltag, Tools, die ich nutze, Dinge, die mich inspirieren. Alles super easy mit Hugo aufgesetzt und per Github ins Netz gestellt. Am HTML und CSS basteln, mit Terminal auseinandersetzen. Was für eine Freude.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

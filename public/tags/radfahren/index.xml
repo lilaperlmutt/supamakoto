@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Radfahren on supamakoto</title>
+    <link>http://localhost:1313/tags/radfahren/</link>
+    <description>Recent content in Radfahren on supamakoto</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/radfahren/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fitness</title>
+      <link>http://localhost:1313/posts/fitness/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fitness/</guid>
+      <description>&lt;p&gt;Seit 2021 fahre ich regelmäßig Rennrad und Gravel. Jedes Jahr aufs Neue schaffe ich es, im Frühling richtig Fitness aufzubauen. Bislang habe ich es aber nie geschafft, die Fitness über den Herbst und Winter zu halten. Das liegt vor allem daran, dass Zwift einfach nicht so Bock macht, wie draußen zu fahren.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/fitness.webp&#34; alt=&#34;Beschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Es liegt aber auch daran, dass ich im Herbst nie ein richtiges Ziel hatte, für das ich in der dunklen Jahreshälfte regelmäßig auf den Trainer steigen würde. Dieses Jahr will ich das endlich mal anders angehen. Das Ziel: beim lokalen 100-KM-Rennen eine Zeit unter drei Stunden schaffen. Eigentlich bin ich gar nicht so der Typ für &lt;em&gt;harte&lt;/em&gt; Ziele. Aber hier könnte es helfen. Mal schauen. Wenn es klappt: mega! Wenn nicht: nun ja. So oder so stellt sich schon jetzt die Frage, was ich dann im Herbst/Winter 2027 mache ¯_(ツ)_/¯&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gravel Auftakt</title>
+      <link>http://localhost:1313/foto/gravel-auftakt/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/foto/gravel-auftakt/</guid>
+      <description>&lt;p&gt;Die erste Runde in diesem Jahr mit Julian: 52 Kilometer, 400 Höhenmeter, viel Sonne und jede Menge Schotter.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
