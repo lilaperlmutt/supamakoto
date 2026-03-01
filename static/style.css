@@ -122,7 +122,7 @@ a:hover {
 }
 
 /* --- Links Highlight --- */
-.content a[href^="mailto:"] {
+.post-body a[href^="mailto:"] {
   background-color: #fef08a;
   color: #111;
   padding: 2px 6px;
