@@ -10,8 +10,15 @@
     {{ end }}
   </div>
 
+  {{ with .Resources.GetMatch (.Params.image) }}
+    {{ $resized := .Resize "800x webp q80" }}
+    <img src="{{ $resized.RelPermalink }}" alt="" loading="lazy">
+  {{ end }}
+
+  {{ if .Content }}
   <div class="post-body">
     {{ .Content }}
   </div>
+  {{ end }}
 </article>
 {{ end }}
