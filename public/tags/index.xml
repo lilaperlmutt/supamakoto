@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on supamakoto</title>
-    <link>http://localhost:50055/tags/</link>
+    <link>https://supamakoto.de/tags/</link>
     <description>Recent content in Tags on supamakoto</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50055/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://supamakoto.de/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Radfahren</title>
-      <link>http://localhost:50055/tags/radfahren/</link>
+      <link>https://supamakoto.de/tags/radfahren/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50055/tags/radfahren/</guid>
+      <guid>https://supamakoto.de/tags/radfahren/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
-      <link>http://localhost:50055/tags/life/</link>
+      <link>https://supamakoto.de/tags/life/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50055/tags/life/</guid>
+      <guid>https://supamakoto.de/tags/life/</guid>
       <description></description>
     </item>
     <item>
       <title>Medienwandel</title>
-      <link>http://localhost:50055/tags/medienwandel/</link>
+      <link>https://supamakoto.de/tags/medienwandel/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50055/tags/medienwandel/</guid>
+      <guid>https://supamakoto.de/tags/medienwandel/</guid>
       <description></description>
     </item>
     <item>
       <title>Zitat</title>
-      <link>http://localhost:50055/tags/zitat/</link>
+      <link>https://supamakoto.de/tags/zitat/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50055/tags/zitat/</guid>
+      <guid>https://supamakoto.de/tags/zitat/</guid>
       <description></description>
     </item>
     <item>
       <title>Bloggen</title>
-      <link>http://localhost:50055/tags/bloggen/</link>
+      <link>https://supamakoto.de/tags/bloggen/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50055/tags/bloggen/</guid>
+      <guid>https://supamakoto.de/tags/bloggen/</guid>
       <description></description>
     </item>
     <item>
       <title>Link</title>
-      <link>http://localhost:50055/tags/link/</link>
+      <link>https://supamakoto.de/tags/link/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50055/tags/link/</guid>
+      <guid>https://supamakoto.de/tags/link/</guid>
       <description></description>
     </item>
     <item>
       <title>Meditation</title>
-      <link>http://localhost:50055/tags/meditation/</link>
+      <link>https://supamakoto.de/tags/meditation/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50055/tags/meditation/</guid>
+      <guid>https://supamakoto.de/tags/meditation/</guid>
       <description></description>
     </item>
   </channel>

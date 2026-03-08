@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on supamakoto</title>
-    <link>http://localhost:50055/posts/</link>
+    <link>https://supamakoto.de/posts/</link>
     <description>Recent content in Posts on supamakoto</description>
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50055/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://supamakoto.de/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FTP: 241 Watt</title>
-      <link>http://localhost:50055/posts/ftp-241/</link>
+      <link>https://supamakoto.de/posts/ftp-241/</link>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50055/posts/ftp-241/</guid>
+      <guid>https://supamakoto.de/posts/ftp-241/</guid>
       <description>&lt;p&gt;FTP-Test absolviert. Von 221 auf 241 Watt gesteigert in den letzten acht Wochen. Für mein Event 2027 muss ich auf gut 300 kommen. Das ist noch ein weiter Weg. Vor allem, weil der Sommer dazwischen liegt und dann der Herbst/Winter kommt&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fitness</title>
-      <link>http://localhost:50055/posts/fitness/</link>
+      <link>https://supamakoto.de/posts/fitness/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50055/posts/fitness/</guid>
-      <description>&lt;p&gt;Seit 2021 fahre ich regelmäßig Rennrad und Gravel. Jedes Jahr aufs Neue schaffe ich es, im Frühling richtig Fitness aufzubauen. Bislang habe ich es aber nie geschafft, die Fitness über den Herbst und Winter zu halten. Das liegt vor allem daran, dass Zwift einfach nicht so Bock macht, wie draußen zu fahren.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:50055/img/fitness.webp&#34; alt=&#34;Beschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Es liegt aber auch daran, dass ich im Herbst nie ein richtiges Ziel hatte, für das ich in der dunklen Jahreshälfte regelmäßig auf den Trainer steigen würde. Dieses Jahr will ich das endlich mal anders angehen. Das Ziel: beim lokalen 100-KM-Rennen eine Zeit unter drei Stunden schaffen. Eigentlich bin ich gar nicht so der Typ für &lt;em&gt;harte&lt;/em&gt; Ziele. Aber hier könnte es helfen. Mal schauen. Wenn es klappt: mega! Wenn nicht: nun ja. So oder so stellt sich schon jetzt die Frage, was ich dann im Herbst/Winter 2027 mache ¯_(ツ)_/¯&lt;/p&gt;</description>
+      <guid>https://supamakoto.de/posts/fitness/</guid>
+      <description>&lt;p&gt;Seit 2021 fahre ich regelmäßig Rennrad und Gravel. Jedes Jahr aufs Neue schaffe ich es, im Frühling richtig Fitness aufzubauen. Bislang habe ich es aber nie geschafft, die Fitness über den Herbst und Winter zu halten. Das liegt vor allem daran, dass Zwift einfach nicht so Bock macht, wie draußen zu fahren.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://supamakoto.de/img/fitness.webp&#34; alt=&#34;Beschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Es liegt aber auch daran, dass ich im Herbst nie ein richtiges Ziel hatte, für das ich in der dunklen Jahreshälfte regelmäßig auf den Trainer steigen würde. Dieses Jahr will ich das endlich mal anders angehen. Das Ziel: beim lokalen 100-KM-Rennen eine Zeit unter drei Stunden schaffen. Eigentlich bin ich gar nicht so der Typ für &lt;em&gt;harte&lt;/em&gt; Ziele. Aber hier könnte es helfen. Mal schauen. Wenn es klappt: mega! Wenn nicht: nun ja. So oder so stellt sich schon jetzt die Frage, was ich dann im Herbst/Winter 2027 mache ¯_(ツ)_/¯&lt;/p&gt;</description>
     </item>
     <item>
       <title>Braces</title>
-      <link>http://localhost:50055/posts/zahnspange/</link>
+      <link>https://supamakoto.de/posts/zahnspange/</link>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50055/posts/zahnspange/</guid>
+      <guid>https://supamakoto.de/posts/zahnspange/</guid>
       <description>&lt;p&gt;Die Große kriegt heute ihre Zangspange. Wie die Zeit vergeht. Gestern noch mit dem Rollschaf durch die Wohnung gedonnert. Heute Zahnspange und danach fünf Stunden YouTube gucken zum Entspannen. It is what it is till it ain&amp;rsquo;t. Festhalten geht nicht. Die Momente bewusst wahrnehmen hingegen schon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Back to blogging</title>
-      <link>http://localhost:50055/posts/mein-erster-post/</link>
+      <link>https://supamakoto.de/posts/mein-erster-post/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50055/posts/mein-erster-post/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:50055/img/mf.jpg&#34; alt=&#34;Beschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles auf Anfang. Endlich wieder bloggen. Lange ist es her. Viel zu lange. Wenn man mit seinem Blog Geld verdient, macht man zwar sein Hobby zum Beruf, aber man verliert auch sein Hobby. Diese kleine Ecke des World Wide Web gehört einfach nur mir. Links, Zitate, Fotos aus meinem Alltag, Tools, die ich nutze, Dinge, die mich inspirieren. Alles super easy mit Hugo aufgesetzt und per Github ins Netz gestellt. Am HTML und CSS basteln, mit Terminal auseinandersetzen. Was für eine Freude.&lt;/p&gt;</description>
+      <guid>https://supamakoto.de/posts/mein-erster-post/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://supamakoto.de/img/mf.jpg&#34; alt=&#34;Beschreibung&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Alles auf Anfang. Endlich wieder bloggen. Lange ist es her. Viel zu lange. Wenn man mit seinem Blog Geld verdient, macht man zwar sein Hobby zum Beruf, aber man verliert auch sein Hobby. Diese kleine Ecke des World Wide Web gehört einfach nur mir. Links, Zitate, Fotos aus meinem Alltag, Tools, die ich nutze, Dinge, die mich inspirieren. Alles super easy mit Hugo aufgesetzt und per Github ins Netz gestellt. Am HTML und CSS basteln, mit Terminal auseinandersetzen. Was für eine Freude.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
