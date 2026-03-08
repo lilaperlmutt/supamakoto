@@ -1,26 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quotes on supamakoto</title>
-    <link>http://localhost:50011/quote/</link>
+    <link>http://localhost:50028/quote/</link>
     <description>Recent content in Quotes on supamakoto</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50011/quote/index.xml" rel="self" type="application/rss+xml" />
+    
+        <atom:link href="http://localhost:50028/quote/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Die with zero</title>
-      <link>http://localhost:50011/quote/die-with-zero/</link>
+      <link>http://localhost:50028/quote/die-with-zero/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50011/quote/die-with-zero/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;I’d rather spend my time and energy trying to live the most fulfilling life I can than to accumulate a sum of money. Money itself doesn’t build relationships, create memories, bring you closer to your loved ones, or express who you are to the world. It’s how you spend money that can make those things easier. When you optimize for net fulfillment over net worth, it’s a whole different game. It shifted my “save to make number go up” mindset to a different frame: “spend what we are able to on the things that matter most.&lt;/p&gt;</description>
+      <guid>http://localhost:50028/quote/die-with-zero/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;I’d rather spend my time and energy trying to live the most fulfilling life I can than to accumulate a sum of money. Money itself doesn’t build relationships, create memories, bring you closer to your loved ones, or express who you are to the world. It’s how you spend money that can make those things easier. When you optimize for net fulfillment over net worth, it’s a whole different game. It shifted my “save to make number go up” mindset to a different frame: “spend what we are able to on the things that matter most.&lt;/p&gt;
+      </description><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;I’d rather spend my time and energy trying to live the most fulfilling life I can than to accumulate a sum of money. Money itself doesn’t build relationships, create memories, bring you closer to your loved ones, or express who you are to the world. It’s how you spend money that can make those things easier. When you optimize for net fulfillment over net worth, it’s a whole different game. It shifted my “save to make number go up” mindset to a different frame: “spend what we are able to on the things that matter most.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;// Aus dem Buch &lt;a href=&#34;https://www.diewithzerobook.com/welcome&#34;&gt;&amp;ldquo;Die With Zero&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link: &lt;a href=&#34;https://notetoself.studio/post/net-fulfillment-over-net-worth/&#34;&gt;Note to Self&lt;/a&gt;&lt;/p&gt;
+
+      </content:encoded>
     </item>
+    
     <item>
       <title>Studie: Amerikaner und ihr Verhältnis zu Nachrichten</title>
-      <link>http://localhost:50011/quote/pew-usa-news-medienwandel/</link>
+      <link>http://localhost:50028/quote/pew-usa-news-medienwandel/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50011/quote/pew-usa-news-medienwandel/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Two-thirds say they have stopped getting news from a specific source, and six-in-ten say they have reduced their overall news intake.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Link: &lt;a href=&#34;https://www.pewresearch.org/journalism/2026/02/11/americans-complicated-relationship-with-news/&#34;&gt;Pew Research Center&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:50028/quote/pew-usa-news-medienwandel/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Two-thirds say they have stopped getting news from a specific source, and six-in-ten say they have reduced their overall news intake.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Link: &lt;a href=&#34;https://www.pewresearch.org/journalism/2026/02/11/americans-complicated-relationship-with-news/&#34;&gt;Pew Research Center&lt;/a&gt;&lt;/p&gt;
+      </description><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;Two-thirds say they have stopped getting news from a specific source, and six-in-ten say they have reduced their overall news intake.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Link: &lt;a href=&#34;https://www.pewresearch.org/journalism/2026/02/11/americans-complicated-relationship-with-news/&#34;&gt;Pew Research Center&lt;/a&gt;&lt;/p&gt;
+
+      </content:encoded>
     </item>
+    
   </channel>
 </rss>

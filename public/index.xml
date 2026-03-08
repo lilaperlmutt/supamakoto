@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>supamakoto</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:50028/</link>
     <description>Recent content on supamakoto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:50028/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Über</title>
-      <link>http://localhost:1313/ueber/</link>
+      <link>http://localhost:50028/ueber/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ueber/</guid>
+      <guid>http://localhost:50028/ueber/</guid>
       <description>&lt;p&gt;Moin, willkommen auf meinem persönlichen Blog. Hier halte ich fest, was mich interessiert und inspiriert. No pressure. Einfach bloggen. Ohne Tracking, ohne Likes, ohne Hintergedanken. Wenn dir etwas gefällt, schön. Falls nicht, auch okay. Es geht hier nicht darum, Sichtbarkeit zu schaffen. Für mich ist diese Seite einfach nur mein ganz persönlicher Space in diesem World Wide Web. Mit Markdown geschrieben, über Hugo ins Netz gehoben, per GitHub veröffentlicht. Keine Skripte, keine Like-Buttons, keine Box für ein E-Mail-Sign-up. Nur RSS, HTML, CSS, jede Menge Drum and Bass, Kaffee und Freude am Bloggen. &lt;a href=&#34;mailto:supamakoto@posteo.de&#34;&gt;Say hi!&lt;/a&gt;&lt;/p&gt;
       </description><content:encoded>&lt;p&gt;Moin, willkommen auf meinem persönlichen Blog. Hier halte ich fest, was mich interessiert und inspiriert. No pressure. Einfach bloggen. Ohne Tracking, ohne Likes, ohne Hintergedanken. Wenn dir etwas gefällt, schön. Falls nicht, auch okay. Es geht hier nicht darum, Sichtbarkeit zu schaffen. Für mich ist diese Seite einfach nur mein ganz persönlicher Space in diesem World Wide Web. Mit Markdown geschrieben, über Hugo ins Netz gehoben, per GitHub veröffentlicht. Keine Skripte, keine Like-Buttons, keine Box für ein E-Mail-Sign-up. Nur RSS, HTML, CSS, jede Menge Drum and Bass, Kaffee und Freude am Bloggen. &lt;a href=&#34;mailto:supamakoto@posteo.de&#34;&gt;Say hi!&lt;/a&gt;&lt;/p&gt;
 
@@ -22,9 +22,9 @@
     
     <item>
       <title>Fotos</title>
-      <link>http://localhost:1313/foto/</link>
+      <link>http://localhost:50028/foto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/foto/</guid>
+      <guid>http://localhost:50028/foto/</guid>
       <description>
       </description><content:encoded>
       </content:encoded>
@@ -32,9 +32,9 @@
     
     <item>
       <title>Links</title>
-      <link>http://localhost:1313/link/</link>
+      <link>http://localhost:50028/link/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/link/</guid>
+      <guid>http://localhost:50028/link/</guid>
       <description>
       </description><content:encoded>
       </content:encoded>
@@ -42,9 +42,9 @@
     
     <item>
       <title>Posts</title>
-      <link>http://localhost:1313/posts/</link>
+      <link>http://localhost:50028/posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/</guid>
+      <guid>http://localhost:50028/posts/</guid>
       <description>
       </description><content:encoded>
       </content:encoded>
@@ -52,9 +52,9 @@
     
     <item>
       <title>Quotes</title>
-      <link>http://localhost:1313/quote/</link>
+      <link>http://localhost:50028/quote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/quote/</guid>
+      <guid>http://localhost:50028/quote/</guid>
       <description>
       </description><content:encoded>
       </content:encoded>
