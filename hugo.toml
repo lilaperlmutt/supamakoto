@@ -17,5 +17,11 @@ enableRobotsTXT = true
 [taxonomies]
   tag = "tags"
 
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = "application/rss+xml"
+    baseName = "index"
+    isPlainText = true
+
 [outputs]
   home = ["HTML", "RSS"]
