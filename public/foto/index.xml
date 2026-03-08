@@ -1,68 +1,47 @@
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fotos on supamakoto</title>
-    <link>http://localhost:50028/foto/</link>
+    <link>http://localhost:50055/foto/</link>
     <description>Recent content in Fotos on supamakoto</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>de</language>
-    
-        <atom:link href="http://localhost:50028/foto/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:50055/foto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gravel.</title>
-      <link>http://localhost:50028/foto/bussard-bussard-kopie/</link>
+      <link>http://localhost:50055/foto/bussard-bussard-kopie/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50028/foto/bussard-bussard-kopie/</guid>
-      <description>&lt;img src=&#34;http://localhost:50028/gravel.jpeg&#34; alt=&#34;Gravel.&#34; /&gt;&lt;p&gt;Ein schönes Foto und ein Test zugleich.&lt;/p&gt;
-      </description><content:encoded>&lt;img src=&#34;http://localhost:50028/gravel.jpeg&#34; alt=&#34;Gravel.&#34; /&gt;&lt;p&gt;Ein schönes Foto und ein Test zugleich.&lt;/p&gt;
-
-      </content:encoded>
+      <guid>http://localhost:50055/foto/bussard-bussard-kopie/</guid>
+      <description>&lt;p&gt;Ein schönes Foto und ein Test zugleich.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bussard. Bussard.</title>
-      <link>http://localhost:50028/foto/bussard-bussard/</link>
+      <link>http://localhost:50055/foto/bussard-bussard/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50028/foto/bussard-bussard/</guid>
-      <description>&lt;img src=&#34;http://localhost:50028/bussard.jpeg&#34; alt=&#34;Bussard. Bussard.&#34; /&gt;&lt;p&gt;Erster Ride mit den neuen Favero. Schön ballern. 195 Watt im Durchschnitt, sagt das Gerät. Training Stress Score von 161. Anscheinend gilt unter 50 als leichte Einheit, ein TSS von 50–150 als moderate bis harte Einheit und 150–300 als sehr harte Einheit. Okay.&lt;/p&gt;
-      </description><content:encoded>&lt;img src=&#34;http://localhost:50028/bussard.jpeg&#34; alt=&#34;Bussard. Bussard.&#34; /&gt;&lt;p&gt;Erster Ride mit den neuen Favero. Schön ballern. 195 Watt im Durchschnitt, sagt das Gerät. Training Stress Score von 161. Anscheinend gilt unter 50 als leichte Einheit, ein TSS von 50–150 als moderate bis harte Einheit und 150–300 als sehr harte Einheit. Okay.&lt;/p&gt;
-
-      </content:encoded>
+      <guid>http://localhost:50055/foto/bussard-bussard/</guid>
+      <description>&lt;p&gt;Erster Ride mit den neuen Favero. Schön ballern. 195 Watt im Durchschnitt, sagt das Gerät. Training Stress Score von 161. Anscheinend gilt unter 50 als leichte Einheit, ein TSS von 50–150 als moderate bis harte Einheit und 150–300 als sehr harte Einheit. Okay.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Meinungsfreiheit</title>
-      <link>http://localhost:50028/foto/meinungsfreiheit-buchladen/</link>
+      <link>http://localhost:50055/foto/meinungsfreiheit-buchladen/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50028/foto/meinungsfreiheit-buchladen/</guid>
-      <description>&lt;img src=&#34;http://localhost:50028/meinungsfreiheit.jpeg&#34; alt=&#34;Meinungsfreiheit&#34; /&gt;&lt;p&gt;Kulturstaatsminister Wolfram Weimer hat drei Buchhandlungen von der Nominierungsliste für den Deutschen Buchhandlungspreis gestrichen: der Buchladen Rote Straße aus Göttingen gehört dazu. Welches Buch könnte ich dort heute also besser kaufen als &amp;ldquo;Meinungsfreiheit&amp;rdquo; von Ronen Steinke?&lt;/p&gt;
-      </description><content:encoded>&lt;img src=&#34;http://localhost:50028/meinungsfreiheit.jpeg&#34; alt=&#34;Meinungsfreiheit&#34; /&gt;&lt;p&gt;Kulturstaatsminister Wolfram Weimer hat drei Buchhandlungen von der Nominierungsliste für den Deutschen Buchhandlungspreis gestrichen: der Buchladen Rote Straße aus Göttingen gehört dazu. Welches Buch könnte ich dort heute also besser kaufen als &amp;ldquo;Meinungsfreiheit&amp;rdquo; von Ronen Steinke?&lt;/p&gt;
-
-      </content:encoded>
+      <guid>http://localhost:50055/foto/meinungsfreiheit-buchladen/</guid>
+      <description>&lt;p&gt;Kulturstaatsminister Wolfram Weimer hat drei Buchhandlungen von der Nominierungsliste für den Deutschen Buchhandlungspreis gestrichen: der Buchladen Rote Straße aus Göttingen gehört dazu. Welches Buch könnte ich dort heute also besser kaufen als &amp;ldquo;Meinungsfreiheit&amp;rdquo; von Ronen Steinke?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Gravel Auftakt</title>
-      <link>http://localhost:50028/foto/gravel-auftakt/</link>
+      <link>http://localhost:50055/foto/gravel-auftakt/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50028/foto/gravel-auftakt/</guid>
-      <description>&lt;img src=&#34;http://localhost:50028/m-j.jpeg&#34; alt=&#34;Gravel Auftakt&#34; /&gt;&lt;p&gt;Die erste Runde in diesem Jahr mit Julian: 52 Kilometer, 400 Höhenmeter, viel Sonne und jede Menge Schotter.&lt;/p&gt;
-      </description><content:encoded>&lt;img src=&#34;http://localhost:50028/m-j.jpeg&#34; alt=&#34;Gravel Auftakt&#34; /&gt;&lt;p&gt;Die erste Runde in diesem Jahr mit Julian: 52 Kilometer, 400 Höhenmeter, viel Sonne und jede Menge Schotter.&lt;/p&gt;
-
-      </content:encoded>
+      <guid>http://localhost:50055/foto/gravel-auftakt/</guid>
+      <description>&lt;p&gt;Die erste Runde in diesem Jahr mit Julian: 52 Kilometer, 400 Höhenmeter, viel Sonne und jede Menge Schotter.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Erste Sonne</title>
-      <link>http://localhost:50028/foto/erste-sonne/</link>
+      <link>http://localhost:50055/foto/erste-sonne/</link>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50028/foto/erste-sonne/</guid>
-      <description>&lt;img src=&#34;http://localhost:50028/erste-sonne.webp&#34; alt=&#34;Erste Sonne&#34; /&gt;&lt;p&gt;Direkt die erste Sonne 2026 für einen kleinen Fahrradausflug mit der Jüngsten genutzt. So schön.&lt;/p&gt;
-      </description><content:encoded>&lt;img src=&#34;http://localhost:50028/erste-sonne.webp&#34; alt=&#34;Erste Sonne&#34; /&gt;&lt;p&gt;Direkt die erste Sonne 2026 für einen kleinen Fahrradausflug mit der Jüngsten genutzt. So schön.&lt;/p&gt;
-
-      </content:encoded>
+      <guid>http://localhost:50055/foto/erste-sonne/</guid>
+      <description>&lt;p&gt;Direkt die erste Sonne 2026 für einen kleinen Fahrradausflug mit der Jüngsten genutzt. So schön.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

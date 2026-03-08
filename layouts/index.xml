@@ -1,0 +1,38 @@
+{{- $allPages := slice -}}
+{{- range .Site.Sections -}}
+  {{- $allPages = $allPages | append .Pages -}}
+{{- end -}}
+{{- $allPages = sort $allPages "Date" "desc" -}}
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ .Site.Params.description }}</description>
+    <generator>Hugo</generator>
+    <language>{{ .Site.Language.Lang }}</language>
+    <atom:link href="{{ .Site.BaseURL }}index.xml" rel="self" type="application/rss+xml" />
+    {{ range $allPages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 +0000" }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      <description>
+        {{- $imgTag := "" -}}
+        {{- with .Resources.GetMatch (.Params.image) -}}
+          {{- $resized := .Resize "800x webp q80" -}}
+          {{- $imgTag = printf "&lt;img src=\"%s\" alt=\"\" /&gt;" $resized.Permalink -}}
+        {{- end -}}
+        {{ $imgTag }}{{ .Content | html }}
+      </description>
+      {{ with .Resources.GetMatch (.Params.image) }}
+        {{ $resized := .Resize "800x webp q80" }}
+        <media:content url="{{ $resized.Permalink }}" medium="image" />
+      {{ end }}
+    </item>
+    {{ end }}
+  </channel>
+</rss>
