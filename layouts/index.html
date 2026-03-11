@@ -1,21 +1,26 @@
 {{ define "main" }}
 <ul class="post-list">
-  {{ range where .Site.RegularPages.ByDate.Reverse "Params.unlisted" "!=" true }}
-    <li class="post-item {{ .Type }}">
+  {{ range $index, $page := where .Site.RegularPages.ByDate.Reverse "Params.unlisted" "!=" true }}
 
-    {{ if eq .Type "quote" }}
+  {{ if eq $index 2 }}
+    {{ partial "blogroll.html" . }}
+  {{ end }}
+
+    <li class="post-item {{ $page.Type }}">
+
+    {{ if eq $page.Type "quote" }}
       {{/* --- Zitat --- */}}
-      <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>
+      <span class="post-date">{{ $page.Date.Format "02.01.2006" }}</span>
       <div class="post-quote">
-        {{ .Content }}
+        {{ $page.Content }}
       </div>
 
-    {{ else if eq .Type "link" }}
+    {{ else if eq $page.Type "link" }}
       {{/* --- Link --- */}}
-      {{ $title := .Title }}
-      {{ $url := .Params.link_url }}
-      <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>
-      <div class="post-body">{{ .Content }}</div>
+      {{ $title := $page.Title }}
+      {{ $url := $page.Params.link_url }}
+      <span class="post-date">{{ $page.Date.Format "02.01.2006" }}</span>
+      <div class="post-body">{{ $page.Content }}</div>
       {{ with $url }}
       <div class="link-card">
         <a href="{{ . }}" target="_blank" rel="noopener">
@@ -27,30 +32,30 @@
       </div>
       {{ end }}
 
-    {{ else if eq .Type "foto" }}
+    {{ else if eq $page.Type "foto" }}
       {{/* --- Foto --- */}}
-      <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>
-      {{ with .Resources.GetMatch (.Params.image) }}
+      <span class="post-date">{{ $page.Date.Format "02.01.2006" }}</span>
+      {{ with $page.Resources.GetMatch ($page.Params.image) }}
         {{ $resized := .Resize "800x webp q80" }}
         <img src="{{ $resized.RelPermalink }}" alt="" loading="lazy">
       {{ end }}
-      {{ if .Content }}
-        <div class="post-body">{{ .Content }}</div>
+      {{ if $page.Content }}
+        <div class="post-body">{{ $page.Content }}</div>
       {{ end }}
 
     {{ else }}
       {{/* --- normaler Post --- */}}
-      <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>
+      <span class="post-date">{{ $page.Date.Format "02.01.2006" }}</span>
       <div class="post-title-line">
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <h2><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
       </div>
       <div class="post-body">
-        {{ .Content }}
+        {{ $page.Content }}
       </div>
 
     {{ end }}
 
-    {{ with .Params.tags }}
+    {{ with $page.Params.tags }}
     <div class="post-tags">
       {{ range . }}<a href="/tags/{{ . | urlize }}">{{ . }}</a>{{ end }}
     </div>
