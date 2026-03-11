@@ -18,7 +18,7 @@
   --ui:           #D6D4F1;
   --footer-bg:    #F0F0F0;
   --footer-text:  #201F25;
-  --max-width:    620px;
+  --max-width:    960px;
   --font-body:  ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Consolas', 'DejaVu Sans Mono', monospace;
   --font-title: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Consolas', 'DejaVu Sans Mono', monospace;
 }
@@ -374,21 +374,35 @@ a:hover {
   margin: 0.5rem 0;
 }
 
-/* --- Pagination --- */
 .pagination {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 3rem 0;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
-.pagination a {
+.pagination-link {
+  color: var(--text2);
+  text-decoration: none;
+  border-bottom: none;
+  transition: color 0.15s;
+}
+
+.pagination-link:hover {
   color: var(--accent);
-  border-bottom: 1px solid transparent;
+  border-bottom: none;
 }
 
-.pagination a:hover {
-  border-bottom-color: var(--accent);
+.pagination-disabled {
+  color: var(--ui);
+  cursor: default;
+}
+
+.pagination-info {
+  font-size: 0.75rem;
+  color: var(--text2);
+  letter-spacing: 0.05em;
 }
 
 /* --- Footer --- */
@@ -518,4 +532,282 @@ a:hover {
 .blogroll-url {
   font-size: 0.72rem;
   color: var(--text2);
+}
+
+/* --- Tag Seite --- */
+
+.taxonomy-title {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text2);
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+/* --- Layout mit Sidebar --- */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* --- Sidebar --- */
+.sidebar {
+  position: sticky;
+  top: 2rem;
+}
+
+.sidebar-block {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--ui);
+}
+
+.sidebar-block:last-child {
+  border-bottom: none;
+}
+
+.sidebar-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text2);
+  margin-bottom: 0.75rem;
+}
+
+.sidebar-text {
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--text2);
+  margin-bottom: 0.85rem;
+}
+
+.sidebar-cta {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--text);
+  border-bottom: 1px solid var(--text);
+  text-decoration: none;
+  margin-bottom: 0.35rem;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.sidebar-cta:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.sidebar-price {
+  font-size: 0.72rem;
+  color: var(--text2);
+  margin: 0;
+}
+
+.sidebar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-links li {
+  margin-bottom: 0.3rem;
+}
+
+.sidebar-links a {
+  font-size: 0.82rem;
+  color: var(--text2);
+  text-decoration: none;
+  border-bottom: none;
+  transition: color 0.15s;
+}
+
+.sidebar-links a:hover {
+  color: var(--accent);
+}
+
+/* --- Responsive: Sidebar unter den Feed --- */
+@media (max-width: 720px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    border-top: 1px solid var(--ui);
+    padding-top: 2rem;
+  }
+}
+
+/* --- About-Seite --- */
+
+.about-header {
+  padding: 3rem 0 2.5rem;
+  border-bottom: 3px solid var(--text);
+  margin-bottom: 0;
+  max-width: 620px;
+}
+
+.about-header-inner {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.about-photo {
+  width: 110px;
+  height: 110px;
+  min-width: 110px;
+  max-width: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+}
+
+.about-name {
+  font-family: var(--font-body);
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 0.75rem;
+}
+
+.about-tagline {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--text2);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.about-social-links {
+  font-family: var(--font-body);
+  margin-top: 1rem;
+  font-size: 0.82rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.about-social-links a {
+  color: var(--text2);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ui);
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.about-social-links a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.about-body {
+  font-family: var(--font-body);
+  padding: 0;
+  max-width: 620px;
+}
+
+.about-body hr {
+  display: none;
+}
+
+.about-body h2 {
+  font-family: var(--font-body);
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--ui);
+  color: var(--text);
+}
+
+.about-body h2:first-child {
+  margin-top: 0;
+  padding-top: 2.5rem;
+  border-top: none;
+}
+
+.about-body p {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.about-body p:last-child {
+  margin-bottom: 0;
+}
+
+.about-body > *:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 600px) {
+  .about-header-inner {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .about-photo {
+    width: 90px;
+    height: 90px;
+    min-width: 90px;
+    max-width: 90px;
+  }
+
+  .about-name {
+    font-size: 1.9rem;
+  }
+}
+
+.about-body img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* --- Pinned Posts --- */
+
+.pinned-label {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.4rem;
+}
+
+/* --- Post reply --- */
+
+.post-reply {
+  margin-top: 0.75rem;
+}
+
+.post-reply-link {
+  font-size: 0.8rem;
+  color: var(--text2);
+  text-decoration: none;
+  border-bottom: none;
+  transition: color 0.15s;
+}
+
+.post-reply-link:hover {
+  color: var(--accent);
+}
+
+/* --- Sidebar Foto --- */
+
+.sidebar-cover {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0.75rem;
+  border-radius: 3px;
 }

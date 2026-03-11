@@ -1,0 +1,18 @@
+{{ $pager := . }}
+{{ if gt $pager.TotalPages 1 }}
+<nav class="pagination">
+  {{ if $pager.HasPrev }}
+    <a href="{{ $pager.Prev.URL }}" class="pagination-link">← Neuere</a>
+  {{ else }}
+    <span class="pagination-link pagination-disabled">← Neuere</span>
+  {{ end }}
+
+  <span class="pagination-info">{{ $pager.PageNumber }} / {{ $pager.TotalPages }}</span>
+
+  {{ if $pager.HasNext }}
+    <a href="{{ $pager.Next.URL }}" class="pagination-link">Ältere →</a>
+  {{ else }}
+    <span class="pagination-link pagination-disabled">Ältere →</span>
+  {{ end }}
+</nav>
+{{ end }}
