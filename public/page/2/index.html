@@ -4,10 +4,10 @@
 	<meta name="generator" content="Hugo 0.155.3">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>supamakoto</title>
+  <title>Martin Fehrensen</title>
   <meta name="description" content="Kurze Beschreibung deines Blogs">
   <link rel="stylesheet" href="https://supamakoto.de/style.css">
-  <link rel="alternate" type="application/rss+xml" title="supamakoto" href="https://supamakoto.de/index.xml">
+  <link rel="alternate" type="application/rss+xml" title="Martin Fehrensen" href="https://supamakoto.de/index.xml">
 </head>
 <body>
 
@@ -16,7 +16,7 @@
   <div class="container">
     <header class="site-header">
       <div class="inner">
-        <h1 class="site-title"><a href="https://supamakoto.de/">supamakoto</a></h1>
+        <h1 class="site-title"><a href="https://supamakoto.de/">Martin Fehrensen</a></h1>
         <nav>
           <ul class="site-nav">
             
@@ -24,175 +24,81 @@
             
             <li><a href="/newsletter/">Newsletter</a></li>
             
+            <li><a href="/podcast/">Podcast</a></li>
+            
           </ul>
         </nav>
       </div>
     </header>
 
-    
-      <div class="layout">
-        <main>
-          
-
-
-
+    <div class="layout">
+      <main>
+        
 
 
 <ul class="post-list">
   
-  
-<li class="post-item quote">
-    
-    
-      
-<span class="post-date">12.02.2026</span>
-<div class="post-quote">
-        <blockquote>
-<p>Two-thirds say they have stopped getting news from a specific source, and six-in-ten say they have reduced their overall news intake.</p>
-</blockquote>
-<p>Link: <a href="https://www.pewresearch.org/journalism/2026/02/11/americans-complicated-relationship-with-news/">Pew Research Center</a></p>
 
-</div>
-    
-    
-    
-<div class="post-tags">
-      <a href="/tags/medienwandel">Medienwandel</a><a href="/tags/zitat">Zitat</a>
-</div>
-    
-</li>
   
-  
-<li class="post-item quote">
-    
-    
-      
-<span class="post-date">12.02.2026</span>
-<div class="post-quote">
-        <blockquote>
-<p>I’d rather spend my time and energy trying to live the most fulfilling life I can than to accumulate a sum of money. Money itself doesn’t build relationships, create memories, bring you closer to your loved ones, or express who you are to the world. It’s how you spend money that can make those things easier. When you optimize for net fulfillment over net worth, it’s a whole different game. It shifted my “save to make number go up” mindset to a different frame: “spend what we are able to on the things that matter most.</p>
-</blockquote>
-<p>// Aus dem Buch <a href="https://www.diewithzerobook.com/welcome">&ldquo;Die With Zero&rdquo;</a></p>
-<p>Link: <a href="https://notetoself.studio/post/net-fulfillment-over-net-worth/">Note to Self</a></p>
 
-</div>
-    
-    
-    
-<div class="post-tags">
-      <a href="/tags/life">Life</a><a href="/tags/zitat">Zitat</a>
-</div>
-    
-</li>
-  
-  
-<li class="post-item link">
-    
-    
-      
-      
-      
-<span class="post-date">11.02.2026</span>
-<div class="post-body"></div>
-      
-<div class="link-card">
-<a href="https://www.wired.com/story/study-of-buddhist-monks-finds-meditation-alters-brain-activity/" target="_blank" rel="noopener">
-<div class="link-card-body">
-<div class="link-card-title">Study of Buddhist Monks Finds Meditation Alters Brain Activity</div>
-<div class="link-card-domain">www.wired.com</div>
-</div>
-</a>
-</div>
-      
-    
-    
-    
-<div class="post-tags">
-      <a href="/tags/meditation">Meditation</a><a href="/tags/link">Link</a>
-</div>
-    
-</li>
-  
-  
-    <li class="post-blogroll">
-  <div class="blogroll-header">
-    <span class="blogroll-label">Ebenfalls lesenswert</span>
-    <button class="blogroll-refresh" onclick="renderBlogroll()">↻ andere</button>
-  </div>
-  <ul class="blogroll-list" id="blogroll-list"></ul>
-</li>
+    <li class="post-item link">
 
-<script>
-  const blogroll = [
-    { name: "kottke.org",               url: "https://kottke.org" },
-    { name: "Pluralistic",              url: "https://pluralistic.net" },
-    { name: "Daring Fireball",          url: "https://daringfireball.net" },
-    { name: "404 Media",                url: "https://www.404media.co" },
-    { name: "Platformer",               url: "https://www.platformer.news" },
-    { name: "Garbage Day",              url: "https://www.garbageday.email" },
-    { name: "The Markup",               url: "https://themarkup.org" },
-    { name: "Übermedien",               url: "https://uebermedien.de" },
-    { name: "Netzpolitik",              url: "https://netzpolitik.org" },
-    { name: "Medieninsider",            url: "https://medieninsider.com" },
-    { name: "Krautreporter",            url: "https://krautreporter.de/" },
-    { name: "Internet Observatorium",   url: "https://internetobservatorium.substack.com" },
-    { name: "Anil Dash",                url: "https://www.anildash.com" },
-    { name: "Dirk von Gehlen",          url: "https://www.dirkvongehlen.de" },
-    { name: "Johannes Klingebiel",      url: "https://klingebeil.substack.com" },
-    { name: "Stratechery",              url: "https://stratechery.com" },
-  ];
-
-  const SHOW = 5;
-
-  function shuffle(arr) {
-    const a = [...arr];
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-  }
-
-  function renderBlogroll() {
-    const list = document.getElementById("blogroll-list");
-    const picked = shuffle(blogroll).slice(0, SHOW);
-    list.innerHTML = picked.map(s => `
-      <li class="blogroll-item">
-        <a class="blogroll-link" href="${s.url}" target="_blank" rel="noopener noreferrer">
-          <span class="blogroll-name">${s.name}</span>
-          <span class="blogroll-url">${new URL(s.url).hostname}</span>
+    
+      
+      
+      
+      <span class="post-date">11.02.2026</span>
+      <div class="post-body"></div>
+      
+      <div class="link-card">
+        <a href="https://www.wired.com/story/study-of-buddhist-monks-finds-meditation-alters-brain-activity/" target="_blank" rel="noopener">
+          <div class="link-card-body">
+            <div class="link-card-title">Study of Buddhist Monks Finds Meditation Alters Brain Activity</div>
+            <div class="link-card-domain">www.wired.com</div>
+          </div>
         </a>
-      </li>
-    `).join("");
-  }
+      </div>
+      
 
-  renderBlogroll();
-</script>
+    
+
+    
+    <div class="post-tags">
+      <a href="/tags/meditation">Meditation</a><a href="/tags/link">Link</a>
+    </div>
+    
+
+  </li>
+  
 
   
-<li class="post-item posts">
-    
+
+    <li class="post-item posts">
+
     
       
-<span class="post-date">11.02.2026</span>
-<div class="post-title-line">
-<h2><a href="https://supamakoto.de/posts/mein-erster-post/">Back to blogging</a></h2>
-</div>
-<div class="post-body">
+      <span class="post-date">11.02.2026</span>
+      <div class="post-title-line">
+        <h2><a href="https://supamakoto.de/posts/mein-erster-post/">Back to blogging</a></h2>
+      </div>
+      <div class="post-body">
         <p><img src="/img/mf.jpg" alt="Beschreibung"></p>
 <p>Alles auf Anfang. Endlich wieder bloggen. Lange ist es her. Viel zu lange. Wenn man mit seinem Blog Geld verdient, macht man zwar sein Hobby zum Beruf, aber man verliert auch sein Hobby. Diese kleine Ecke des World Wide Web gehört einfach nur mir. Links, Zitate, Fotos aus meinem Alltag, Tools, die ich nutze, Dinge, die mich inspirieren. Alles super easy mit Hugo aufgesetzt und per Github ins Netz gestellt. Am HTML und CSS basteln, mit Terminal auseinandersetzen. Was für eine Freude.</p>
 
-</div>
+      </div>
+
     
+
     
-    
-<div class="post-tags">
+    <div class="post-tags">
       <a href="/tags/bloggen">Bloggen</a>
-</div>
+    </div>
     
-</li>
+
+  </li>
   
 </ul>
+
 
 
 <nav class="pagination">
@@ -209,32 +115,32 @@
 
 
 
-        </main>
-        <aside class="sidebar">
-          <div class="sidebar-block">
+      </main>
+      <aside class="sidebar">
+        <div class="sidebar-block">
   <div class="sidebar-label">Newsletter</div>
-  <img src="/img/newsletter-cover.jpg" alt="Newsletter Cover" class="sidebar-cover">
-  <p class="sidebar-text">Einmal pro Woche: Analysen zum Wandel der digitalen Öffentlichkeit - mehr als 5000 Menschen lesen bereits mit. Du befindest dich garantiert in guter Gesellschaft.</p>
+  <p class="sidebar-text">Einmal pro Woche: Was die Entscheidungen von Meta, TikTok, Google und OpenAI für Gesellschaft und Demokratie bedeuten.</p>
   <a href="https://steady.page/de/socialmediawatchblog" class="sidebar-cta" target="_blank" rel="noopener">30 Tage kostenlos testen →</a>
   <p class="sidebar-price">danach 60 €/Jahr</p>
 </div>
 
 <div class="sidebar-block">
-  <div class="sidebar-label">In Kontakt bleiben</div>
+  <div class="sidebar-label">Wo ich sonst bin</div>
   <ul class="sidebar-links">
-    <li><a href="https://martinfehrensen.de/index.xml" target="_blank" rel="noopener">RSS</a></li>
-    <li><a href="https://mastodon.social/@martinfehrensen" target="_blank" rel="noopener">Mastodon</a></li>
     <li><a href="https://bsky.app/profile/martinfehrensen.de" target="_blank" rel="noopener">Bluesky</a></li>
+    <li><a href="https://www.linkedin.com/in/martin-fehrensen/" target="_blank" rel="noopener">LinkedIn</a></li>
+    <li><a href="https://www.instagram.com/martinfehrensen/" target="_blank" rel="noopener">Instagram</a></li>
+    <li><a href="https://mastodon.social/@martinfehrensen" target="_blank" rel="noopener">Mastodon</a></li>
   </ul>
 </div>
-        </aside>
-      </div>
-    
+
+      </aside>
+    </div>
   </div>
 
   <footer class="site-footer">
     <div class="container">
-      <p>Meine Arbeit wird durch 1000 echte Fans ermöglicht. <br>Solltest du einer davon sein: Mein allergrößter Dank! <br><br><a href="https://www.socialmediawatchblog.de/impressum/">Impressum</a></p>
+      <p>Auf dieser Website werden keine Daten gesammelt. <a href="https://www.socialmediawatchblog.de/impressum/">Impressum</a></p>
     </div>
   </footer>
 

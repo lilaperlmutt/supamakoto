@@ -1,13 +1,13 @@
 baseURL = "https://supamakoto.de/"
 languageCode = "de"
-title = "supamakoto"
+title = "Martin Fehrensen"
 [pagination]
   pagerSize = 10
 enableRobotsTXT = true
 
 [params]
   description = "Kurze Beschreibung deines Blogs"
-  footerText = 'Meine Arbeit wird durch 1000 echte Fans ermöglicht. <br>Solltest du einer davon sein: Mein allergrößter Dank! <br><br><a href="https://www.socialmediawatchblog.de/impressum/">Impressum</a>'
+  footerText = 'Auf dieser Website werden keine Daten gesammelt. <a href="https://www.socialmediawatchblog.de/impressum/">Impressum</a>'
 [menu]
   [[menu.main]]
     name = "Über"
@@ -17,6 +17,10 @@ enableRobotsTXT = true
     name = "Newsletter"
     url  = "/newsletter/"
     weight = 2
+  [[menu.main]]
+    name = "Podcast"
+    url  = "/podcast/"
+    weight = 3
 
 [taxonomies]
   tag = "tags"

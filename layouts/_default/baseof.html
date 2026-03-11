@@ -26,20 +26,14 @@
       </div>
     </header>
 
-    {{ if false }}
+    <div class="layout">
       <main>
         {{ block "main" . }}{{ end }}
       </main>
-    {{ else }}
-      <div class="layout">
-        <main>
-          {{ block "main" . }}{{ end }}
-        </main>
-        <aside class="sidebar">
-          {{ partial "sidebar.html" . }}
-        </aside>
-      </div>
-    {{ end }}
+      <aside class="sidebar">
+        {{ partial "sidebar.html" . }}
+      </aside>
+    </div>
   </div>
 
   <footer class="site-footer">
