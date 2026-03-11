@@ -1,7 +1,13 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 <ul class="post-list">
-  {{ range .Pages.ByDate.Reverse }}
+  {{ range $index, $page := .Pages.ByDate.Reverse }}
+
+  {{/* Nach dem dritten Post (Index 2) die Blogroll einfügen */}}
+  {{ if eq $index 2 }}
+    {{ partial "blogroll.html" . }}
+  {{ end }}
+
   <li class="post-item{{ if eq .Type "quote" }} post-quote{{ else if eq .Type "link" }} post-link{{ end }}">
 
     <span class="post-date">{{ .Date.Format "02.01.2006" }}</span>

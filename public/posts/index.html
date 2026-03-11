@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="de">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Posts — supamakoto</title>
   <meta name="description" content="Kurze Beschreibung deines Blogs">
-  <link rel="stylesheet" href="http://localhost:1313/style.css">
-  <link rel="alternate" type="application/rss+xml" title="supamakoto" href="http://localhost:1313/index.xml">
+  <link rel="stylesheet" href="https://supamakoto.de/style.css">
+  <link rel="alternate" type="application/rss+xml" title="supamakoto" href="https://supamakoto.de/index.xml">
 </head>
 <body>
 
@@ -15,7 +15,7 @@
   <div class="container">
     <header class="site-header">
       <div class="inner">
-        <h1 class="site-title"><a href="http://localhost:1313/">supamakoto</a></h1>
+        <h1 class="site-title"><a href="https://supamakoto.de/">supamakoto</a></h1>
         <nav>
           <ul class="site-nav">
             
@@ -31,11 +31,15 @@
 <h1>Posts</h1>
 <ul class="post-list">
   
+
+  
+  
+
   <li class="post-item">
 
     <span class="post-date">03.03.2026</span>
     <div class="post-title-line">
-      <h2><a href="http://localhost:1313/posts/ftp-241/">FTP: 241 Watt</a></h2>
+      <h2><a href="https://supamakoto.de/posts/ftp-241/">FTP: 241 Watt</a></h2>
     </div>
 
     
@@ -43,7 +47,7 @@
         <p>FTP-Test absolviert. Von 221 auf 241 Watt gesteigert in den letzten acht Wochen. Für mein Event 2027 muss ich auf gut 300 kommen. Das ist noch ein weiter Weg. Vor allem, weil der Sommer dazwischen liegt und dann der Herbst/Winter kommt&hellip;</p>
       </div>
       <div class="read-more">
-        <a href="http://localhost:1313/posts/ftp-241/">Weiterlesen →</a>
+        <a href="https://supamakoto.de/posts/ftp-241/">Weiterlesen →</a>
       </div>
     
 
@@ -55,11 +59,15 @@
 
   </li>
   
+
+  
+  
+
   <li class="post-item">
 
     <span class="post-date">01.03.2026</span>
     <div class="post-title-line">
-      <h2><a href="http://localhost:1313/posts/fitness/">Fitness</a></h2>
+      <h2><a href="https://supamakoto.de/posts/fitness/">Fitness</a></h2>
     </div>
 
     
@@ -69,7 +77,7 @@
 <p>Es liegt aber auch daran, dass ich im Herbst nie ein richtiges Ziel hatte, für das ich in der dunklen Jahreshälfte regelmäßig auf den Trainer steigen würde. Dieses Jahr will ich das endlich mal anders angehen. Das Ziel: beim lokalen 100-KM-Rennen eine Zeit unter drei Stunden schaffen. Eigentlich bin ich gar nicht so der Typ für <em>harte</em> Ziele. Aber hier könnte es helfen. Mal schauen. Wenn es klappt: mega! Wenn nicht: nun ja. So oder so stellt sich schon jetzt die Frage, was ich dann im Herbst/Winter 2027 mache ¯_(ツ)_/¯</p>
       </div>
       <div class="read-more">
-        <a href="http://localhost:1313/posts/fitness/">Weiterlesen →</a>
+        <a href="https://supamakoto.de/posts/fitness/">Weiterlesen →</a>
       </div>
     
 
@@ -81,11 +89,73 @@
 
   </li>
   
+
+  
+  
+    <li class="post-item post-blogroll">
+  <div class="blogroll-inner">
+    <div class="blogroll-header">
+      <span class="blogroll-label">Ebenfalls lesenswert</span>
+      <button class="blogroll-refresh" onclick="renderBlogroll()">↻ andere</button>
+    </div>
+    <ul class="blogroll-list" id="blogroll-list"></ul>
+  </div>
+</li>
+
+<script>
+  const blogroll = [
+    { name: "kottke.org",               url: "https://kottke.org" },
+    { name: "Pluralistic",              url: "https://pluralistic.net" },
+    { name: "Daring Fireball",          url: "https://daringfireball.net" },
+    { name: "404 Media",                url: "https://www.404media.co" },
+    { name: "Platformer",               url: "https://www.platformer.news" },
+    { name: "Garbage Day",              url: "https://www.garbageday.email" },
+    { name: "The Markup",               url: "https://themarkup.org" },
+    { name: "Übermedien",               url: "https://uebermedien.de" },
+    { name: "Netzpolitik",              url: "https://netzpolitik.org" },
+    { name: "Medieninsider",            url: "https://medieninsider.com" },
+    { name: "Krautreporter",            url: "https://krautreporter.de/" },
+    { name: "Internet Observatorium",   url: "https://internetobservatorium.substack.com" },
+    { name: "Anil Dash",                url: "https://www.anildash.com" },
+    { name: "Dirk von Gehlen",          url: "https://www.dirkvongehlen.de" },
+    { name: "Johannes Klingebiel",      url: "https://klingebeil.substack.com" },
+    { name: "Stratechery",              url: "https://stratechery.com" },
+  ];
+
+  const SHOW = 5;
+
+  function shuffle(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function renderBlogroll() {
+    const list = document.getElementById("blogroll-list");
+    const picked = shuffle(blogroll).slice(0, SHOW);
+    list.innerHTML = picked.map(s => `
+      <li class="blogroll-item">
+        <a class="blogroll-link" href="${s.url}" target="_blank" rel="noopener noreferrer">
+          <span class="blogroll-name">${s.name}</span>
+          <span class="blogroll-url">${new URL(s.url).hostname}</span>
+        </a>
+      </li>
+    `).join("");
+  }
+
+  renderBlogroll();
+</script>
+
+  
+
   <li class="post-item">
 
     <span class="post-date">20.02.2026</span>
     <div class="post-title-line">
-      <h2><a href="http://localhost:1313/posts/zahnspange/">Braces</a></h2>
+      <h2><a href="https://supamakoto.de/posts/zahnspange/">Braces</a></h2>
     </div>
 
     
@@ -93,7 +163,7 @@
         <p>Die Große kriegt heute ihre Zangspange. Wie die Zeit vergeht. Gestern noch mit dem Rollschaf durch die Wohnung gedonnert. Heute Zahnspange und danach fünf Stunden YouTube gucken zum Entspannen. It is what it is till it ain&rsquo;t. Festhalten geht nicht. Die Momente bewusst wahrnehmen hingegen schon.</p>
       </div>
       <div class="read-more">
-        <a href="http://localhost:1313/posts/zahnspange/">Weiterlesen →</a>
+        <a href="https://supamakoto.de/posts/zahnspange/">Weiterlesen →</a>
       </div>
     
 
@@ -105,11 +175,15 @@
 
   </li>
   
+
+  
+  
+
   <li class="post-item">
 
     <span class="post-date">11.02.2026</span>
     <div class="post-title-line">
-      <h2><a href="http://localhost:1313/posts/mein-erster-post/">Back to blogging</a></h2>
+      <h2><a href="https://supamakoto.de/posts/mein-erster-post/">Back to blogging</a></h2>
     </div>
 
     
@@ -118,7 +192,7 @@
 <p>Alles auf Anfang. Endlich wieder bloggen. Lange ist es her. Viel zu lange. Wenn man mit seinem Blog Geld verdient, macht man zwar sein Hobby zum Beruf, aber man verliert auch sein Hobby. Diese kleine Ecke des World Wide Web gehört einfach nur mir. Links, Zitate, Fotos aus meinem Alltag, Tools, die ich nutze, Dinge, die mich inspirieren. Alles super easy mit Hugo aufgesetzt und per Github ins Netz gestellt. Am HTML und CSS basteln, mit Terminal auseinandersetzen. Was für eine Freude.</p>
       </div>
       <div class="read-more">
-        <a href="http://localhost:1313/posts/mein-erster-post/">Weiterlesen →</a>
+        <a href="https://supamakoto.de/posts/mein-erster-post/">Weiterlesen →</a>
       </div>
     
 

@@ -431,3 +431,86 @@ a:hover {
     font-size: 1.5rem;
   }
 }
+
+/* --- Blogroll (in Feed injiziert) --- */
+.post-blogroll {
+  background: var(--bg2);
+  border-radius: 4px;
+  padding: 1.25rem 1.25rem 1rem !important;
+}
+
+.blogroll-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--ui);
+}
+
+.blogroll-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text2);
+}
+
+.blogroll-refresh {
+  background: none;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  cursor: pointer;
+  padding: 0;
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+
+.blogroll-refresh:hover { opacity: 1; }
+
+.blogroll-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blogroll-item {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--ui);
+  opacity: 0;
+  transform: translateY(3px);
+  animation: fadeIn 0.18s forwards;
+  font-size: 0.9rem;
+}
+
+.blogroll-item:last-child { border-bottom: none; }
+.blogroll-item:nth-child(1) { animation-delay: 0.02s; }
+.blogroll-item:nth-child(2) { animation-delay: 0.06s; }
+.blogroll-item:nth-child(3) { animation-delay: 0.10s; }
+.blogroll-item:nth-child(4) { animation-delay: 0.14s; }
+.blogroll-item:nth-child(5) { animation-delay: 0.18s; }
+
+@keyframes fadeIn {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.blogroll-link {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.blogroll-link:hover .blogroll-name { color: var(--accent); }
+.blogroll-name { transition: color 0.15s; }
+
+.blogroll-url {
+  font-size: 0.72rem;
+  color: var(--text2);
+}
+
