@@ -434,24 +434,23 @@ a:hover {
 
 /* --- Blogroll (in Feed injiziert) --- */
 .post-blogroll {
-  background: var(--bg2);
-  border-radius: 4px;
-  padding: 1.25rem 1.25rem 1rem !important;
+  padding-bottom: 2.5rem;
   margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--ui);
 }
 
 .blogroll-header {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  margin-bottom: 0.75rem;
-  padding-bottom: 0.5rem;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
   border-bottom: 1px solid var(--ui);
 }
 
 .blogroll-label {
   font-size: 0.7rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text2);
 }
@@ -467,13 +466,10 @@ a:hover {
   cursor: pointer;
   padding: 0;
   opacity: 0.8;
-  transition: opacity 0.15s, color 0.15s;
+  transition: opacity 0.15s;
 }
 
-.blogroll-refresh:hover {
-  opacity: 1;
-  color: var(--text);
-}
+.blogroll-refresh:hover { opacity: 1; }
 
 .blogroll-list {
   list-style: none;
@@ -482,15 +478,15 @@ a:hover {
 }
 
 .blogroll-item {
-  padding: 6px 0;
+  padding: 7px 0;
   border-bottom: 1px solid var(--ui);
   opacity: 0;
   transform: translateY(3px);
   animation: fadeIn 0.18s forwards;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
-.blogroll-item:last-child { border-bottom: none; padding-bottom: 0; }
+.blogroll-item:last-child { border-bottom: none; }
 .blogroll-item:nth-child(1) { animation-delay: 0.02s; }
 .blogroll-item:nth-child(2) { animation-delay: 0.06s; }
 .blogroll-item:nth-child(3) { animation-delay: 0.10s; }
@@ -502,12 +498,12 @@ a:hover {
 }
 
 .blogroll-link {
-  display: flex;
-  align-items: baseline;
-  gap: 0.6rem;
   color: var(--text);
   text-decoration: none;
   border-bottom: none;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
 }
 
 .blogroll-link:hover .blogroll-name {
@@ -516,6 +512,7 @@ a:hover {
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }
+
 .blogroll-name { transition: color 0.15s; }
 
 .blogroll-url {
