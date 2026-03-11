@@ -1,6 +1,6 @@
 baseURL = "https://supamakoto.de/"
 languageCode = "de"
-title = "supamakoto"
+title = "Martin Fehrensen"
 [pagination]
   pagerSize = 10
 enableRobotsTXT = true
