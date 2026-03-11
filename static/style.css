@@ -437,6 +437,7 @@ a:hover {
   background: var(--bg2);
   border-radius: 4px;
   padding: 1.25rem 1.25rem 1rem !important;
+  margin-bottom: 2.5rem;
 }
 
 .blogroll-header {
@@ -462,14 +463,17 @@ a:hover {
   font-size: 0.7rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--text2);
   cursor: pointer;
   padding: 0;
   opacity: 0.8;
-  transition: opacity 0.15s;
+  transition: opacity 0.15s, color 0.15s;
 }
 
-.blogroll-refresh:hover { opacity: 1; }
+.blogroll-refresh:hover {
+  opacity: 1;
+  color: var(--text);
+}
 
 .blogroll-list {
   list-style: none;
@@ -486,7 +490,7 @@ a:hover {
   font-size: 0.9rem;
 }
 
-.blogroll-item:last-child { border-bottom: none; }
+.blogroll-item:last-child { border-bottom: none; padding-bottom: 0; }
 .blogroll-item:nth-child(1) { animation-delay: 0.02s; }
 .blogroll-item:nth-child(2) { animation-delay: 0.06s; }
 .blogroll-item:nth-child(3) { animation-delay: 0.10s; }
@@ -506,11 +510,15 @@ a:hover {
   border-bottom: none;
 }
 
-.blogroll-link:hover .blogroll-name { color: var(--accent); }
+.blogroll-link:hover .blogroll-name {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
 .blogroll-name { transition: color 0.15s; }
 
 .blogroll-url {
   font-size: 0.72rem;
   color: var(--text2);
 }
-
