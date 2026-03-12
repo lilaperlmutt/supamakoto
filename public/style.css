@@ -18,7 +18,7 @@
   --ui:           #D6D4F1;
   --footer-bg:    #F0F0F0;
   --footer-text:  #201F25;
-  --max-width:    960px;
+  --max-width:    620px;
   --font-body:  ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Consolas', 'DejaVu Sans Mono', monospace;
   --font-title: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Consolas', 'DejaVu Sans Mono', monospace;
 }
@@ -548,10 +548,7 @@ a:hover {
 
 /* --- Layout mit Sidebar --- */
 .layout {
-  display: grid;
-  grid-template-columns: 1fr 220px;
-  gap: 3rem;
-  align-items: start;
+  display: block;
 }
 
 /* --- Sidebar --- */
@@ -589,8 +586,8 @@ a:hover {
   display: block;
   font-size: 0.82rem;
   color: var(--text);
-  border-bottom: 1px solid var(--text);
   text-decoration: none;
+  border-bottom: none;
   margin-bottom: 0.35rem;
   transition: color 0.15s, border-color 0.15s;
 }
@@ -639,175 +636,4 @@ a:hover {
     border-top: 1px solid var(--ui);
     padding-top: 2rem;
   }
-}
-
-/* --- About-Seite --- */
-
-.about-header {
-  padding: 3rem 0 2.5rem;
-  border-bottom: 3px solid var(--text);
-  margin-bottom: 0;
-  max-width: 620px;
-}
-
-.about-header-inner {
-  display: flex;
-  gap: 2rem;
-  align-items: flex-start;
-}
-
-.about-photo {
-  width: 110px;
-  height: 110px;
-  min-width: 110px;
-  max-width: 110px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
-  display: block;
-}
-
-.about-name {
-  font-family: var(--font-body);
-  font-size: 2.4rem;
-  font-weight: 500;
-  letter-spacing: -0.02em;
-  line-height: 1.1;
-  margin-bottom: 0.75rem;
-}
-
-.about-tagline {
-  font-family: var(--font-body);
-  font-size: 1rem;
-  color: var(--text2);
-  line-height: 1.5;
-  margin-bottom: 0;
-}
-
-.about-social-links {
-  font-family: var(--font-body);
-  margin-top: 1rem;
-  font-size: 0.82rem;
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.about-social-links a {
-  color: var(--text2);
-  text-decoration: none;
-  border-bottom: 1px solid var(--ui);
-  transition: color 0.15s, border-color 0.15s;
-}
-
-.about-social-links a:hover {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
-}
-
-.about-body {
-  font-family: var(--font-body);
-  padding: 0;
-  max-width: 620px;
-}
-
-.about-body hr {
-  display: none;
-}
-
-.about-body h2 {
-  font-family: var(--font-body);
-  font-size: 1.5rem;
-  font-weight: 500;
-  letter-spacing: -0.01em;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  padding-top: 2.5rem;
-  border-top: 1px solid var(--ui);
-  color: var(--text);
-}
-
-.about-body h2:first-child {
-  margin-top: 0;
-  padding-top: 2.5rem;
-  border-top: none;
-}
-
-.about-body p {
-  font-family: var(--font-body);
-  font-size: 1.05rem;
-  line-height: 1.65;
-  color: var(--text);
-  margin-bottom: 1rem;
-}
-
-.about-body p:last-child {
-  margin-bottom: 0;
-}
-
-.about-body > *:last-child {
-  border-bottom: none;
-}
-
-@media (max-width: 600px) {
-  .about-header-inner {
-    flex-direction: column;
-    gap: 1.25rem;
-  }
-
-  .about-photo {
-    width: 90px;
-    height: 90px;
-    min-width: 90px;
-    max-width: 90px;
-  }
-
-  .about-name {
-    font-size: 1.9rem;
-  }
-}
-
-.about-body img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* --- Pinned Posts --- */
-
-.pinned-label {
-  display: block;
-  font-size: 0.7rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 0.4rem;
-}
-
-/* --- Post reply --- */
-
-.post-reply {
-  margin-top: 0.75rem;
-}
-
-.post-reply-link {
-  font-size: 0.8rem;
-  color: var(--text2);
-  text-decoration: none;
-  border-bottom: none;
-  transition: color 0.15s;
-}
-
-.post-reply-link:hover {
-  color: var(--accent);
-}
-
-/* --- Sidebar Foto --- */
-
-.sidebar-cover {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 0.75rem;
-  border-radius: 3px;
 }
