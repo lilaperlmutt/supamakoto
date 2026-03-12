@@ -18,7 +18,7 @@
   --ui:           #D6D4F1;
   --footer-bg:    #F0F0F0;
   --footer-text:  #201F25;
-  --max-width:    620px;
+  --max-width:    960px;
   --font-body:  ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Consolas', 'DejaVu Sans Mono', monospace;
   --font-title: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, 'Consolas', 'DejaVu Sans Mono', monospace;
 }
