@@ -548,7 +548,10 @@ a:hover {
 
 /* --- Layout mit Sidebar --- */
 .layout {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 4rem;
+  align-items: start;
 }
 
 /* --- Sidebar --- */
