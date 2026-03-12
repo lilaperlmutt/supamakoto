@@ -4,17 +4,17 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Martin Fehrensen</title>
-    <link>http://localhost:1313/</link>
+    <link>https://supamakoto.de/</link>
     <description>Kurze Beschreibung deines Blogs</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://supamakoto.de/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Freie Newsletter Subs</title>
-      <link>http://localhost:1313/posts/newsletter-subs/</link>
+      <link>https://supamakoto.de/posts/newsletter-subs/</link>
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/newsletter-subs/</guid>
+      <guid>https://supamakoto.de/posts/newsletter-subs/</guid>
       <description>&lt;p&gt;Beim Social Media Watchblog haben wir über die Jahre immer wieder unterschiedliche Methoden ausprobiert, um Menschen unsere Arbeit näherzubringen. Ein erprobtes Mittel, um Leute davon zu überzeugen, Mitglied zu werden, lautet: Sieh zu, dass du sie als Newsletter-Subscriber gewinnst. Dann kannst du sie, so die Logik, in der Folge immer mal wieder mit deinen Inhalten beglücken und darauf hoffen, dass sie Mitglied werden. Vielleicht erstellst du sogar eine automatisierte E-Mail-Kampagne, in der du dich und deine Arbeit vorstellst. Genau das haben wir in verschiedensten Varianten durchexerziert.&lt;/p&gt;
 &lt;p&gt;Mal haben wir unseren freien Subs eine ganze Ausgabe geschickt, mal haben wir ihnen eine E-Mail mit unserer Story geschickt, mal haben wir sie einfach kalt angeschrieben und ihnen gezeigt, was eine Mitgliedschaft für Vorteile mit sich bringt, einmal haben wir sogar eine E-Mail-Serie aufgesetzt. Aber am Ende - und das ist der Punkt - ist die Conversion bei unserem Projekt verschwindend gering. Um es plump auszudrücken: Der Aufwand lohnt sich nicht.&lt;/p&gt;
 &lt;p&gt;So sitze ich also derzeit auf 3500 Kontakten, die sich irgendwann mal für meinen Newsletter eingetragen haben, aber eigentlich kein Interesse an einem Abo bei uns haben. Was mache ich mit ihnen? Einfach im System lassen? Bei Ghost zahle ich pro Kontakt. Es entstehen reale Kosten. Oder &amp;ldquo;schmeiße&amp;rdquo; ich sie von der Liste und verschicke den Newsletter wirklich nur noch an jene, die eine Mitgliedschaft bei uns haben? Ich habe bislang keine finale Antwort darauf gefunden.&lt;/p&gt;
@@ -25,9 +25,9 @@
     
     <item>
       <title>Independence</title>
-      <link>http://localhost:1313/posts/blog/</link>
+      <link>https://supamakoto.de/posts/blog/</link>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/blog/</guid>
+      <guid>https://supamakoto.de/posts/blog/</guid>
       <description>&lt;p&gt;Es dauert keine drei Wochen mehr, dann gehen Simon und ich getrennte Wege. Es ist &lt;a href=&#34;https://www.socialmediawatchblog.de/ein-abschied-und-ein-anfang/&#34;&gt;ein Abschied und ein Anfang&lt;/a&gt;. Ein Abschied vom besten Kollegen, den ich mir für das Social Media Watchblog hätte wünschen können. Ein Anfang, von dem ich noch nicht weiß, was daraus folgt. Das Social Media Watchblog hat sich in den acht gemeinsamen Jahren immer stärker Richtung professionelles Briefing entwickelt. Das ist grundsätzlich auch richtig gewesen. Und dennoch spüre ich, dass ich so nicht weitermachen möchte und einen Richtungswechsel brauche. Dieser Blog ist ein erster Schritt.&lt;/p&gt;
 &lt;p&gt;Ich möchte wieder mehr indie wagen. Weg von professionellem Monitoring hin zu dem, was mich von Tag eins an am Internet so fasziniert hat: entdecken, beobachten, sammeln, reflektieren, einbringen. Der Wahrheit verpflichtet, aber ohne Anspruch auf Vollständigkeit. Mit dem Blick für Aktuelles, aber ohne alles kommentiere zu müssen. Das Social Media Watchblog bleibt meine publizistische Heimat. Aber ich werde mich wieder viel öfter aufmachen, um Neues zu entdecken.&lt;/p&gt;
 </description>
@@ -36,57 +36,57 @@
     
     <item>
       <title>Meta Ray-Ban: Ein Traum für Meta, ein Albtraum für die Privatsphäre</title>
-      <link>http://localhost:1313/link/meta-rayban/</link>
+      <link>https://supamakoto.de/link/meta-rayban/</link>
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/link/meta-rayban/</guid>
+      <guid>https://supamakoto.de/link/meta-rayban/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Aufkleber</title>
-      <link>http://localhost:1313/foto/aufkleber/</link>
+      <link>https://supamakoto.de/foto/aufkleber/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/foto/aufkleber/</guid>
-      <description>&lt;img src="http://localhost:1313/foto/aufkleber/aufkleber_hu_764335cfb4f12ab6.webp" /&gt;&lt;p&gt;Noch so viele Aufkleber, die geklebet werden wollen. Einfach bei jedem Ride mindestens einen verteilen.&lt;/p&gt;
+      <guid>https://supamakoto.de/foto/aufkleber/</guid>
+      <description>&lt;img src="https://supamakoto.de/foto/aufkleber/aufkleber_hu_764335cfb4f12ab6.webp" /&gt;&lt;p&gt;Noch so viele Aufkleber, die geklebet werden wollen. Einfach bei jedem Ride mindestens einen verteilen.&lt;/p&gt;
 </description>
       
         
-        <media:content url="http://localhost:1313/foto/aufkleber/aufkleber_hu_764335cfb4f12ab6.webp" medium="image" />
+        <media:content url="https://supamakoto.de/foto/aufkleber/aufkleber_hu_764335cfb4f12ab6.webp" medium="image" />
       
     </item>
     
     <item>
       <title>Bussard. Bussard.</title>
-      <link>http://localhost:1313/foto/bussard-bussard/</link>
+      <link>https://supamakoto.de/foto/bussard-bussard/</link>
       <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/foto/bussard-bussard/</guid>
-      <description>&lt;img src="http://localhost:1313/foto/bussard-bussard/bussard_hu_aa1c3618672d0b2b.webp" /&gt;&lt;p&gt;Erste Fahrt mit den neuen Favero. Schön ballern. 195 Watt im Durchschnitt, sagt das Gerät. Training Stress Score von 161. Anscheinend gilt unter 50 als leichte Einheit, ein TSS von 50–150 als moderate bis harte Einheit und 150–300 als sehr harte Einheit. Okay.&lt;/p&gt;
+      <guid>https://supamakoto.de/foto/bussard-bussard/</guid>
+      <description>&lt;img src="https://supamakoto.de/foto/bussard-bussard/bussard_hu_aa1c3618672d0b2b.webp" /&gt;&lt;p&gt;Erste Fahrt mit den neuen Favero. Schön ballern. 195 Watt im Durchschnitt, sagt das Gerät. Training Stress Score von 161. Anscheinend gilt unter 50 als leichte Einheit, ein TSS von 50–150 als moderate bis harte Einheit und 150–300 als sehr harte Einheit. Okay.&lt;/p&gt;
 </description>
       
         
-        <media:content url="http://localhost:1313/foto/bussard-bussard/bussard_hu_aa1c3618672d0b2b.webp" medium="image" />
+        <media:content url="https://supamakoto.de/foto/bussard-bussard/bussard_hu_aa1c3618672d0b2b.webp" medium="image" />
       
     </item>
     
     <item>
       <title>Meinungsfreiheit</title>
-      <link>http://localhost:1313/foto/meinungsfreiheit/</link>
+      <link>https://supamakoto.de/foto/meinungsfreiheit/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/foto/meinungsfreiheit/</guid>
-      <description>&lt;img src="http://localhost:1313/foto/meinungsfreiheit/meinungsfreiheit_hu_97131f0d7167fe1b.webp" /&gt;&lt;p&gt;Kulturstaatsminister Wolfram Weimer hat drei Buchhandlungen von der Nominierungsliste für den Deutschen Buchhandlungspreis gestrichen: der Buchladen Rote Straße aus Göttingen gehört dazu. Welches Buch könnte ich dort heute also besser kaufen als &amp;ldquo;Meinungsfreiheit&amp;rdquo; von Ronen Steinke?&lt;/p&gt;
+      <guid>https://supamakoto.de/foto/meinungsfreiheit/</guid>
+      <description>&lt;img src="https://supamakoto.de/foto/meinungsfreiheit/meinungsfreiheit_hu_97131f0d7167fe1b.webp" /&gt;&lt;p&gt;Kulturstaatsminister Wolfram Weimer hat drei Buchhandlungen von der Nominierungsliste für den Deutschen Buchhandlungspreis gestrichen: der Buchladen Rote Straße aus Göttingen gehört dazu. Welches Buch könnte ich dort heute also besser kaufen als &amp;ldquo;Meinungsfreiheit&amp;rdquo; von Ronen Steinke?&lt;/p&gt;
 </description>
       
         
-        <media:content url="http://localhost:1313/foto/meinungsfreiheit/meinungsfreiheit_hu_97131f0d7167fe1b.webp" medium="image" />
+        <media:content url="https://supamakoto.de/foto/meinungsfreiheit/meinungsfreiheit_hu_97131f0d7167fe1b.webp" medium="image" />
       
     </item>
     
     <item>
       <title>FTP: 241 Watt</title>
-      <link>http://localhost:1313/posts/ftp-241/</link>
+      <link>https://supamakoto.de/posts/ftp-241/</link>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ftp-241/</guid>
+      <guid>https://supamakoto.de/posts/ftp-241/</guid>
       <description>&lt;p&gt;FTP-Test absolviert. Von 221 auf 241 Watt gesteigert in den letzten acht Wochen. Für mein Event 2027 muss ich auf gut 300 kommen. Das ist noch ein weiter Weg. Vor allem, weil der Sommer dazwischen liegt und dann der Herbst/Winter kommt&amp;hellip;&lt;/p&gt;
 </description>
       
@@ -94,11 +94,11 @@
     
     <item>
       <title>Fitness</title>
-      <link>http://localhost:1313/posts/fitness/</link>
+      <link>https://supamakoto.de/posts/fitness/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fitness/</guid>
+      <guid>https://supamakoto.de/posts/fitness/</guid>
       <description>&lt;p&gt;Seit 2021 fahre ich regelmäßig Rennrad und Gravel. Jedes Jahr aufs Neue schaffe ich es, im Frühling richtig Fitness aufzubauen. Bislang habe ich es aber nie geschafft, die Fitness über den Herbst und Winter zu halten. Das liegt vor allem daran, dass Zwift einfach nicht so Bock macht, wie draußen zu fahren.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/fitness.webp&#34; alt=&#34;Beschreibung&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://supamakoto.de/img/fitness.webp&#34; alt=&#34;Beschreibung&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Es liegt aber auch daran, dass ich im Herbst nie ein richtiges Ziel hatte, für das ich in der dunklen Jahreshälfte regelmäßig auf den Trainer steigen würde. Dieses Jahr will ich das endlich mal anders angehen. Das Ziel: beim lokalen 100-KM-Rennen eine Zeit unter drei Stunden schaffen. Eigentlich bin ich gar nicht so der Typ für &lt;em&gt;harte&lt;/em&gt; Ziele. Aber hier könnte es helfen. Mal schauen. Wenn es klappt: mega! Wenn nicht: nun ja. So oder so stellt sich schon jetzt die Frage, was ich dann im Herbst/Winter 2027 mache ¯_(ツ)_/¯&lt;/p&gt;
 </description>
       
@@ -106,35 +106,35 @@
     
     <item>
       <title>Gravel Auftakt</title>
-      <link>http://localhost:1313/foto/gravel-auftakt/</link>
+      <link>https://supamakoto.de/foto/gravel-auftakt/</link>
       <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/foto/gravel-auftakt/</guid>
-      <description>&lt;img src="http://localhost:1313/foto/gravel-auftakt/m-j_hu_f5f4951f8f9d1a15.webp" /&gt;&lt;p&gt;Die erste Runde in diesem Jahr mit Julian: 52 Kilometer, 400 Höhenmeter, viel Sonne und jede Menge Schotter.&lt;/p&gt;
+      <guid>https://supamakoto.de/foto/gravel-auftakt/</guid>
+      <description>&lt;img src="https://supamakoto.de/foto/gravel-auftakt/m-j_hu_f5f4951f8f9d1a15.webp" /&gt;&lt;p&gt;Die erste Runde in diesem Jahr mit Julian: 52 Kilometer, 400 Höhenmeter, viel Sonne und jede Menge Schotter.&lt;/p&gt;
 </description>
       
         
-        <media:content url="http://localhost:1313/foto/gravel-auftakt/m-j_hu_f5f4951f8f9d1a15.webp" medium="image" />
+        <media:content url="https://supamakoto.de/foto/gravel-auftakt/m-j_hu_f5f4951f8f9d1a15.webp" medium="image" />
       
     </item>
     
     <item>
       <title>Erste Sonne</title>
-      <link>http://localhost:1313/foto/erste-sonne/</link>
+      <link>https://supamakoto.de/foto/erste-sonne/</link>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/foto/erste-sonne/</guid>
-      <description>&lt;img src="http://localhost:1313/foto/erste-sonne/erste-sonne_hu_8998a605455e9c60.webp" /&gt;&lt;p&gt;Direkt die erste Sonne 2026 für einen kleinen Fahrradausflug mit der Jüngsten genutzt. So schön.&lt;/p&gt;
+      <guid>https://supamakoto.de/foto/erste-sonne/</guid>
+      <description>&lt;img src="https://supamakoto.de/foto/erste-sonne/erste-sonne_hu_8998a605455e9c60.webp" /&gt;&lt;p&gt;Direkt die erste Sonne 2026 für einen kleinen Fahrradausflug mit der Jüngsten genutzt. So schön.&lt;/p&gt;
 </description>
       
         
-        <media:content url="http://localhost:1313/foto/erste-sonne/erste-sonne_hu_8998a605455e9c60.webp" medium="image" />
+        <media:content url="https://supamakoto.de/foto/erste-sonne/erste-sonne_hu_8998a605455e9c60.webp" medium="image" />
       
     </item>
     
     <item>
       <title>Braces</title>
-      <link>http://localhost:1313/posts/zahnspange/</link>
+      <link>https://supamakoto.de/posts/zahnspange/</link>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/zahnspange/</guid>
+      <guid>https://supamakoto.de/posts/zahnspange/</guid>
       <description>&lt;p&gt;Die Große kriegt heute ihre Zangspange. Wie die Zeit vergeht. Gestern noch mit dem Rollschaf durch die Wohnung gedonnert. Heute Zahnspange und danach fünf Stunden YouTube gucken zum Entspannen. It is what it is till it ain&amp;rsquo;t. Festhalten geht nicht. Die Momente bewusst wahrnehmen hingegen schon.&lt;/p&gt;
 </description>
       
@@ -142,9 +142,9 @@
     
     <item>
       <title>Die with zero</title>
-      <link>http://localhost:1313/quote/die-with-zero/</link>
+      <link>https://supamakoto.de/quote/die-with-zero/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/quote/die-with-zero/</guid>
+      <guid>https://supamakoto.de/quote/die-with-zero/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;I’d rather spend my time and energy trying to live the most fulfilling life I can than to accumulate a sum of money. Money itself doesn’t build relationships, create memories, bring you closer to your loved ones, or express who you are to the world. It’s how you spend money that can make those things easier. When you optimize for net fulfillment over net worth, it’s a whole different game. It shifted my “save to make number go up” mindset to a different frame: “spend what we are able to on the things that matter most.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -156,9 +156,9 @@
     
     <item>
       <title>Studie: Amerikaner und ihr Verhältnis zu Nachrichten</title>
-      <link>http://localhost:1313/quote/pew-usa-news-medienwandel/</link>
+      <link>https://supamakoto.de/quote/pew-usa-news-medienwandel/</link>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/quote/pew-usa-news-medienwandel/</guid>
+      <guid>https://supamakoto.de/quote/pew-usa-news-medienwandel/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Two-thirds say they have stopped getting news from a specific source, and six-in-ten say they have reduced their overall news intake.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -169,10 +169,10 @@
     
     <item>
       <title>Back to blogging</title>
-      <link>http://localhost:1313/posts/mein-erster-post/</link>
+      <link>https://supamakoto.de/posts/mein-erster-post/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mein-erster-post/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/mf.jpg&#34; alt=&#34;Beschreibung&#34;&gt;&lt;/p&gt;
+      <guid>https://supamakoto.de/posts/mein-erster-post/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://supamakoto.de/img/mf.jpg&#34; alt=&#34;Beschreibung&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Alles auf Anfang. Endlich wieder bloggen. Lange ist es her. Viel zu lange. Wenn man mit seinem Blog Geld verdient, macht man zwar sein Hobby zum Beruf, aber man verliert auch sein Hobby. Diese kleine Ecke des World Wide Web gehört einfach nur mir. Links, Zitate, Fotos aus meinem Alltag, Tools, die ich nutze, Dinge, die mich inspirieren. Alles super easy mit Hugo aufgesetzt und per Github ins Netz gestellt. Am HTML und CSS basteln, mit Terminal auseinandersetzen. Was für eine Freude.&lt;/p&gt;
 </description>
       
@@ -180,9 +180,9 @@
     
     <item>
       <title>Study of Buddhist Monks Finds Meditation Alters Brain Activity</title>
-      <link>http://localhost:1313/link/meditation/</link>
+      <link>https://supamakoto.de/link/meditation/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/link/meditation/</guid>
+      <guid>https://supamakoto.de/link/meditation/</guid>
       <description></description>
       
     </item>
