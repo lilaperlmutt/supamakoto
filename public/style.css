@@ -628,6 +628,14 @@ a:hover {
   color: var(--accent);
 }
 
+.sidebar-cover {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 3px;
+  margin-bottom: 0.75rem;
+}
+
 /* --- Responsive: Sidebar unter den Feed --- */
 @media (max-width: 720px) {
   .layout {
