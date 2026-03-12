@@ -1,6 +1,6 @@
 baseURL = "https://supamakoto.de/"
 languageCode = "de"
-title = "Martin Fehrensen"
+title = "supamakoto"
 [pagination]
   pagerSize = 10
 enableRobotsTXT = true
@@ -13,14 +13,6 @@ enableRobotsTXT = true
     name = "Über"
     url  = "/ueber/"
     weight = 1
-  [[menu.main]]
-    name = "Newsletter"
-    url  = "/newsletter/"
-    weight = 2
-  [[menu.main]]
-    name = "Podcast"
-    url  = "/podcast/"
-    weight = 3
 
 [taxonomies]
   tag = "tags"
