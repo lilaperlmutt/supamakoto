@@ -1,12 +1,7 @@
 /* =============================================
-   SMWB Blog — Minimal CSS
-   Farbpalette inspiriert von Tempa Records
+   MF Blog — Minimal CSS
    Eigene Farben, abgespeckt auf das Wesentliche
    ============================================= */
-
-/* --- Schriften (self-hosted) --- */
-/* Falls du keine eigenen Fonts hast, 
-   funktioniert der Stack unten auch ohne @font-face */
 
 /* --- CSS Custom Properties --- */
 :root {
@@ -129,7 +124,6 @@ a:hover {
   text-decoration: none;
 }
 
-
 /* --- Post-Liste (Startseite) --- */
 .post-list {
   list-style: none;
@@ -147,7 +141,7 @@ a:hover {
   border-bottom: none;
 }
 
-/* --- Post-Titel + Datum inline (wie notetoself) --- */
+/* --- Post-Titel + Datum inline --- */
 .post-title-line {
   margin: 0 0 0.5rem;
   line-height: 1.2;
@@ -374,6 +368,7 @@ a:hover {
   margin: 0.5rem 0;
 }
 
+/* --- Pagination --- */
 .pagination {
   display: flex;
   justify-content: space-between;
@@ -421,7 +416,7 @@ a:hover {
 
 .site-footer a {
   color: var(--footer-text);
-  border-bottom-color: rgba(255,255,255,0.3);
+  border-bottom-color: var(--ui);
 }
 
 .site-footer a:hover {
@@ -429,24 +424,7 @@ a:hover {
   border-bottom-color: var(--accent);
 }
 
-/* --- Responsive --- */
-@media (max-width: 640px) {
-  .site-header .inner {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .post-title-line h2,
-  .post-title-line h1 {
-    font-size: 1.3rem;
-  }
-
-  .single-post h1 {
-    font-size: 1.5rem;
-  }
-}
-
-/* --- Blogroll (in Feed injiziert) --- */
+/* --- Blogroll --- */
 .post-blogroll {
   padding-bottom: 2.5rem;
   margin-bottom: 2.5rem;
@@ -535,9 +513,7 @@ a:hover {
 }
 
 /* --- Tag Seite --- */
-
 .taxonomy-title {
-  font-size: 1rem;
   font-weight: 400;
   color: var(--text2);
   margin-bottom: 2.5rem;
@@ -636,8 +612,22 @@ a:hover {
   margin-bottom: 0.75rem;
 }
 
-/* --- Responsive: Sidebar unter den Feed --- */
-@media (max-width: 720px) {
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .site-header .inner {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .post-title-line h2,
+  .post-title-line h1 {
+    font-size: 1.3rem;
+  }
+
+  .single-post h1 {
+    font-size: 1.5rem;
+  }
+
   .layout {
     grid-template-columns: 1fr;
   }
