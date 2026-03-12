@@ -8,11 +8,11 @@ unlisted: true
 
 ## Über mich
 
-Während meines Volontariats beim ZDF wurde mir klar: Soziale Medien würden das Mediensystem grundlegend verändern – nicht nur als neue Verbreitungskanäle, sondern als eigenständige Macht mit enormer gesellschaftlicher und politischer Bedeutung.
+Ich schreibe seit 2012 [einen Newsletter](https://socialmediawatchblog.de) darüber, wie Plattformen und KI unsere Gesellschaft verändern. Mich interessiert nicht, wie man mehr Likes und Follower bekommt. Mich interessiert, was der Wandel der digitalen Öffentlichkeit bedeutet.
 
-2012 gründete ich deshalb das [Social Media Watchblog](https://www.socialmediawatchblog.de) – zunächst als Projekt neben meiner Arbeit bei heute.de und später bei bento/SPIEGEL. Was als kuratierter Newsletter für Kolleg:innen begann, wurde durch Empfehlungen schnell zu einem festen Bestandteil im Informationsalltag vieler Medienprofis.
+Wie verändern sich Journalismus, Meinungsbildung und Wissensvermittlung, wenn sich immer mehr Menschen über Social Media und Chatbots informieren? Und was macht das mit uns als Gesellschaft?
 
-Während meiner Elternzeit entschied ich mich, es zu meinem Beruf zu machen. Die Reaktion übertraf alle Erwartungen. Heute verschicke ich den Newsletter Woche für Woche an Tausende Mitglieder. Viel Arbeit, aber ein noch viel größeres Glück.
+Dass ich das meinen Beruf nennen darf, verdanke ich mehr als 5000 Mitgliedern. Viele zahlen privat, viele über ihren Arbeitgeber – darunter Redaktionen, Behörden und sogar das Auswärtige Amt. Manchmal finde ich das selbst ein bisschen weird.
 
 Berichte über meine Arbeit: [taz](https://taz.de/Populismus-und-Social-Media/!vn6066610/) · [ZDF](https://www.zdf.de/play/dokus/zdf-info-100/volksversteher-die-tricks-der-populisten-100) · [Übermedien](https://uebermedien.de/88742/wird-bluesky-das-neue-twitter/) · [Steady](https://steady.page/de/magazin/posts/f2c2c4df-6a25-4219-b619-7fa72a3a553e) · [Deutschlandfunk](https://www.deutschlandfunknova.de/beitrag/martin-fehrensen-der-social-media-beobachter)
 
