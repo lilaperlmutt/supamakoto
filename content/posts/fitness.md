@@ -2,7 +2,7 @@
 title: "Fitness"
 date: 2026-03-01
 draft: false
-tags: ["Life", "Radfahren"]
+tags: ["Radfahren"]
 description: "Fitness kommt und geht."
 ---
 
